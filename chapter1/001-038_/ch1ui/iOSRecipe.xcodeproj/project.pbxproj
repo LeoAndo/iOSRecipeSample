@@ -69,12 +69,10 @@
 		E155202118955C3E002D8078 /* Ch01_UIImageView_02_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E155201F18955C3E002D8078 /* Ch01_UIImageView_02_ViewController.xib */; };
 		E155202A18955C61002D8078 /* Ch01_UIImageView_04_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E155202818955C61002D8078 /* Ch01_UIImageView_04_ViewController.m */; };
 		E155202B18955C61002D8078 /* Ch01_UIImageView_04_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E155202918955C61002D8078 /* Ch01_UIImageView_04_ViewController.xib */; };
-		E155202D1895613A002D8078 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E155202C1895613A002D8078 /* sample.jpg */; };
 		E155202F189565F7002D8078 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E155202E189565F7002D8078 /* sample.jpg */; };
 		E1960F711807439400EBAF61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1960F701807439400EBAF61 /* Foundation.framework */; };
 		E1960F731807439400EBAF61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1960F721807439400EBAF61 /* CoreGraphics.framework */; };
 		E1960F751807439400EBAF61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1960F741807439400EBAF61 /* UIKit.framework */; };
-		E1960F7B1807439400EBAF61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1960F791807439400EBAF61 /* InfoPlist.strings */; };
 		E1960F7D1807439400EBAF61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1960F7C1807439400EBAF61 /* main.m */; };
 		E1960F811807439400EBAF61 /* Ch01_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1960F801807439400EBAF61 /* Ch01_AppDelegate.m */; };
 		E1960F831807439400EBAF61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1960F821807439400EBAF61 /* Images.xcassets */; };
@@ -709,6 +707,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				ja,
 			);
@@ -728,7 +727,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1960F7B1807439400EBAF61 /* InfoPlist.strings in Resources */,
 				E155202B18955C61002D8078 /* Ch01_UIImageView_04_ViewController.xib in Resources */,
 				E1143CE6187931EC00C48BD6 /* Ch01_UITextField_03_ViewController.xib in Resources */,
 				E1FFBEBA18591625000AB3C3 /* Ch01_UISlider_01_ViewController.xib in Resources */,
@@ -756,7 +754,6 @@
 				E1A302A218B1277400D1270D /* Ch01_UITableView_02_Storyboard.storyboard in Resources */,
 				E1552000189506EB002D8078 /* Ch01_UITextField_05_ViewController.xib in Resources */,
 				E152AA22188EC6BB004EF29B /* pink.png in Resources */,
-				E155202D1895613A002D8078 /* sample.jpg in Resources */,
 				E12DDC97181866DC00AA0F13 /* Ch01_UIProgressView_01_ViewController.xib in Resources */,
 				E101DBC11898657C0089D237 /* Ch01_UITableView_01_Storyboard.storyboard in Resources */,
 				E1143CE118791A1300C48BD6 /* Ch01_UITextField_02_ViewController.xib in Resources */,
@@ -972,7 +969,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSRecipe/iOSRecipe-Prefix.pch";
 				INFOPLIST_FILE = "iOSRecipe/iOSRecipe-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -987,7 +984,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSRecipe/iOSRecipe-Prefix.pch";
 				INFOPLIST_FILE = "iOSRecipe/iOSRecipe-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
