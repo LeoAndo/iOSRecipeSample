@@ -1,0 +1,1072 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E100705D1878EFF0000551BC /* Ch01_UITextField_01_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E100705B1878EFF0000551BC /* Ch01_UITextField_01_ViewController.m */; };
+		E100705E1878EFF0000551BC /* Ch01_UITextField_01_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E100705C1878EFF0000551BC /* Ch01_UITextField_01_ViewController.xib */; };
+		E101DBBE189865190089D237 /* Ch01_UITableView_01_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E101DBBC189865190089D237 /* Ch01_UITableView_01_TableViewController.m */; };
+		E101DBBF189865190089D237 /* Ch01_UITableView_01_TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E101DBBD189865190089D237 /* Ch01_UITableView_01_TableViewController.xib */; };
+		E101DBC11898657C0089D237 /* Ch01_UITableView_01_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E101DBC01898657C0089D237 /* Ch01_UITableView_01_Storyboard.storyboard */; };
+		E1056B391882B75400A3F8D5 /* Ch01_UIAlertView_02_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1056B371882B75400A3F8D5 /* Ch01_UIAlertView_02_ViewController.m */; };
+		E1056B3A1882B75400A3F8D5 /* Ch01_UIAlertView_02_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1056B381882B75400A3F8D5 /* Ch01_UIAlertView_02_ViewController.xib */; };
+		E1056B3F1882D90400A3F8D5 /* Ch01_UIPopoverController_01_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1056B3D1882D90400A3F8D5 /* Ch01_UIPopoverController_01_ViewController.m */; };
+		E1056B401882D90400A3F8D5 /* Ch01_UIPopoverController_01_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1056B3E1882D90400A3F8D5 /* Ch01_UIPopoverController_01_ViewController.xib */; };
+		E1056B441882E5FA00A3F8D5 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1056B421882E5FA00A3F8D5 /* ContentViewController.m */; };
+		E1056B451882E5FA00A3F8D5 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1056B431882E5FA00A3F8D5 /* ContentViewController.xib */; };
+		E10BE3A81883883E0033E75F /* Ch01_UIPopoverController_02_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10BE3A61883883E0033E75F /* Ch01_UIPopoverController_02_ViewController.m */; };
+		E10BE3A91883883E0033E75F /* Ch01_UIPopoverController_02_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10BE3A71883883E0033E75F /* Ch01_UIPopoverController_02_ViewController.xib */; };
+		E10BE3AD18839EB10033E75F /* Content2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10BE3AB18839EB10033E75F /* Content2ViewController.m */; };
+		E10BE3AE18839EB10033E75F /* Content2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10BE3AC18839EB10033E75F /* Content2ViewController.xib */; };
+		E10BE3B31883AED60033E75F /* Ch01_UIPickerView_01_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10BE3B11883AED60033E75F /* Ch01_UIPickerView_01_ViewController.m */; };
+		E10BE3B41883AED60033E75F /* Ch01_UIPickerView_01_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10BE3B21883AED60033E75F /* Ch01_UIPickerView_01_ViewController.xib */; };
+		E10BE3B81883B3EA0033E75F /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10BE3B61883B3EA0033E75F /* PickerViewController.m */; };
+		E10BE3B91883B3EA0033E75F /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10BE3B71883B3EA0033E75F /* PickerViewController.xib */; };
+		E10BE3C91883E09D0033E75F /* Ch01_UIPickerView_02_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10BE3C71883E09D0033E75F /* Ch01_UIPickerView_02_ViewController.m */; };
+		E10BE3CA1883E09D0033E75F /* Ch01_UIPickerView_02_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10BE3C81883E09D0033E75F /* Ch01_UIPickerView_02_ViewController.xib */; };
+		E10BE3CE1883E0BA0033E75F /* PickerView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = E10BE3CC1883E0BA0033E75F /* PickerView2Controller.m */; };
+		E10BE3CF1883E0BA0033E75F /* PickerView2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10BE3CD1883E0BA0033E75F /* PickerView2Controller.xib */; };
+		E1143CE018791A1300C48BD6 /* Ch01_UITextField_02_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1143CDE18791A1300C48BD6 /* Ch01_UITextField_02_ViewController.m */; };
+		E1143CE118791A1300C48BD6 /* Ch01_UITextField_02_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1143CDF18791A1300C48BD6 /* Ch01_UITextField_02_ViewController.xib */; };
+		E1143CE5187931EC00C48BD6 /* Ch01_UITextField_03_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1143CE3187931EC00C48BD6 /* Ch01_UITextField_03_ViewController.m */; };
+		E1143CE6187931EC00C48BD6 /* Ch01_UITextField_03_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1143CE4187931EC00C48BD6 /* Ch01_UITextField_03_ViewController.xib */; };
+		E12DDC96181866DC00AA0F13 /* Ch01_UIProgressView_01_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E12DDC94181866DB00AA0F13 /* Ch01_UIProgressView_01_ViewController.m */; };
+		E12DDC97181866DC00AA0F13 /* Ch01_UIProgressView_01_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E12DDC95181866DB00AA0F13 /* Ch01_UIProgressView_01_ViewController.xib */; };
+		E1402E761878537C00DA00B3 /* Ch01_UIButton_01_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1402E741878537C00DA00B3 /* Ch01_UIButton_01_ViewController.m */; };
+		E1402E771878537C00DA00B3 /* Ch01_UIButton_01_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1402E751878537C00DA00B3 /* Ch01_UIButton_01_ViewController.xib */; };
+		E1402E7B1878539300DA00B3 /* Ch01_UIButton_02_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1402E791878539300DA00B3 /* Ch01_UIButton_02_ViewController.m */; };
+		E1402E7C1878539300DA00B3 /* Ch01_UIButton_02_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1402E7A1878539300DA00B3 /* Ch01_UIButton_02_ViewController.xib */; };
+		E141179E187CA92B0043F3DD /* Ch01_UITextView_01_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E141179C187CA92B0043F3DD /* Ch01_UITextView_01_ViewController.m */; };
+		E141179F187CA92B0043F3DD /* Ch01_UITextView_01_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E141179D187CA92B0043F3DD /* Ch01_UITextView_01_ViewController.xib */; };
+		E14117A4187CB50A0043F3DD /* Ch01_UIAlertView_01_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14117A2187CB50A0043F3DD /* Ch01_UIAlertView_01_ViewController.m */; };
+		E14117A5187CB50A0043F3DD /* Ch01_UIAlertView_01_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14117A3187CB50A0043F3DD /* Ch01_UIAlertView_01_ViewController.xib */; };
+		E152AA21188EC6BB004EF29B /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = E152AA1D188EC6BB004EF29B /* green.png */; };
+		E152AA22188EC6BB004EF29B /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = E152AA1E188EC6BB004EF29B /* pink.png */; };
+		E152AA23188EC6BB004EF29B /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = E152AA1F188EC6BB004EF29B /* red.png */; };
+		E152AA25188EC733004EF29B /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = E152AA24188EC733004EF29B /* gray.png */; };
+		E1551FF41894BE04002D8078 /* Ch01_UISlider_02_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1551FF21894BE04002D8078 /* Ch01_UISlider_02_ViewController.m */; };
+		E1551FF51894BE04002D8078 /* Ch01_UISlider_02_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1551FF31894BE04002D8078 /* Ch01_UISlider_02_ViewController.xib */; };
+		E1551FF81894D2C2002D8078 /* custom_slider_max.png in Resources */ = {isa = PBXBuildFile; fileRef = E1551FF61894D2C2002D8078 /* custom_slider_max.png */; };
+		E1551FF91894D2C2002D8078 /* custom_slider_min.png in Resources */ = {isa = PBXBuildFile; fileRef = E1551FF71894D2C2002D8078 /* custom_slider_min.png */; };
+		E1551FFB1894EA11002D8078 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = E1551FFA1894EA11002D8078 /* ball.png */; };
+		E1551FFF189506EB002D8078 /* Ch01_UITextField_05_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1551FFD189506EB002D8078 /* Ch01_UITextField_05_ViewController.m */; };
+		E1552000189506EB002D8078 /* Ch01_UITextField_05_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1551FFE189506EB002D8078 /* Ch01_UITextField_05_ViewController.xib */; };
+		E155200518952509002D8078 /* Ch01_UIActionSheet_01_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E155200318952509002D8078 /* Ch01_UIActionSheet_01_ViewController.m */; };
+		E155200618952509002D8078 /* Ch01_UIActionSheet_01_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E155200418952509002D8078 /* Ch01_UIActionSheet_01_ViewController.xib */; };
+		E155200B18954886002D8078 /* Ch01_UIDatePicker_01_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E155200918954886002D8078 /* Ch01_UIDatePicker_01_ViewController.m */; };
+		E155200C18954886002D8078 /* Ch01_UIDatePicker_01_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E155200A18954886002D8078 /* Ch01_UIDatePicker_01_ViewController.xib */; };
+		E15520101895515F002D8078 /* Ch01_UIDatePicker_02_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E155200E1895515F002D8078 /* Ch01_UIDatePicker_02_ViewController.m */; };
+		E15520111895515F002D8078 /* Ch01_UIDatePicker_02_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E155200F1895515F002D8078 /* Ch01_UIDatePicker_02_ViewController.xib */; };
+		E155201518955416002D8078 /* Ch01_UIDatePicker_03_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E155201318955416002D8078 /* Ch01_UIDatePicker_03_ViewController.m */; };
+		E155201618955416002D8078 /* Ch01_UIDatePicker_03_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E155201418955416002D8078 /* Ch01_UIDatePicker_03_ViewController.xib */; };
+		E155201B1895591E002D8078 /* Ch01_UIImageView_01_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E15520191895591E002D8078 /* Ch01_UIImageView_01_ViewController.m */; };
+		E155201C1895591E002D8078 /* Ch01_UIImageView_01_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E155201A1895591E002D8078 /* Ch01_UIImageView_01_ViewController.xib */; };
+		E155202018955C3E002D8078 /* Ch01_UIImageView_02_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E155201E18955C3E002D8078 /* Ch01_UIImageView_02_ViewController.m */; };
+		E155202118955C3E002D8078 /* Ch01_UIImageView_02_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E155201F18955C3E002D8078 /* Ch01_UIImageView_02_ViewController.xib */; };
+		E155202A18955C61002D8078 /* Ch01_UIImageView_04_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E155202818955C61002D8078 /* Ch01_UIImageView_04_ViewController.m */; };
+		E155202B18955C61002D8078 /* Ch01_UIImageView_04_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E155202918955C61002D8078 /* Ch01_UIImageView_04_ViewController.xib */; };
+		E155202D1895613A002D8078 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E155202C1895613A002D8078 /* sample.jpg */; };
+		E155202F189565F7002D8078 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E155202E189565F7002D8078 /* sample.jpg */; };
+		E1960F711807439400EBAF61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1960F701807439400EBAF61 /* Foundation.framework */; };
+		E1960F731807439400EBAF61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1960F721807439400EBAF61 /* CoreGraphics.framework */; };
+		E1960F751807439400EBAF61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1960F741807439400EBAF61 /* UIKit.framework */; };
+		E1960F7B1807439400EBAF61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1960F791807439400EBAF61 /* InfoPlist.strings */; };
+		E1960F7D1807439400EBAF61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1960F7C1807439400EBAF61 /* main.m */; };
+		E1960F811807439400EBAF61 /* Ch01_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1960F801807439400EBAF61 /* Ch01_AppDelegate.m */; };
+		E1960F831807439400EBAF61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1960F821807439400EBAF61 /* Images.xcassets */; };
+		E1960F8A1807439400EBAF61 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1960F891807439400EBAF61 /* XCTest.framework */; };
+		E1960F8B1807439400EBAF61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1960F701807439400EBAF61 /* Foundation.framework */; };
+		E1960F8C1807439400EBAF61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1960F741807439400EBAF61 /* UIKit.framework */; };
+		E1960F941807439400EBAF61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1960F921807439400EBAF61 /* InfoPlist.strings */; };
+		E1960F961807439400EBAF61 /* iOSRecipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1960F951807439400EBAF61 /* iOSRecipeTests.m */; };
+		E1960FA31807454800EBAF61 /* Ch01_UILabel_01_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1960FA11807454800EBAF61 /* Ch01_UILabel_01_ViewController.m */; };
+		E1960FA41807454800EBAF61 /* Ch01_UILabel_01_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1960FA21807454800EBAF61 /* Ch01_UILabel_01_ViewController.xib */; };
+		E1960FA81807458C00EBAF61 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1960FA61807458C00EBAF61 /* MainViewController.m */; };
+		E1969D241809FEDF00F9E882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1969D231809FEDF00F9E882 /* Main.storyboard */; };
+		E19BBAFF180C9F820039CDF8 /* Ch01_UILabel_02_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19BBAFD180C9F820039CDF8 /* Ch01_UILabel_02_ViewController.m */; };
+		E19BBB00180C9F820039CDF8 /* Ch01_UILabel_02_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19BBAFE180C9F820039CDF8 /* Ch01_UILabel_02_ViewController.xib */; };
+		E19C27A218A2DD7200DB4509 /* Ch01_UITableView_04_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19C27A018A2DD7200DB4509 /* Ch01_UITableView_04_TableViewController.m */; };
+		E19C27A318A2DD7200DB4509 /* Ch01_UITableView_04_TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19C27A118A2DD7200DB4509 /* Ch01_UITableView_04_TableViewController.xib */; };
+		E19C27A718A2DEDC00DB4509 /* Ch01_UITableView_04_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19C27A618A2DEDC00DB4509 /* Ch01_UITableView_04_Storyboard.storyboard */; };
+		E19C27AD18A2E9FA00DB4509 /* Ch01_UITableView_03_TableViewControlle.m in Sources */ = {isa = PBXBuildFile; fileRef = E19C27AB18A2E9FA00DB4509 /* Ch01_UITableView_03_TableViewControlle.m */; };
+		E19C27AE18A2E9FA00DB4509 /* Ch01_UITableView_03_TableViewControlle.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19C27AC18A2E9FA00DB4509 /* Ch01_UITableView_03_TableViewControlle.xib */; };
+		E1A302A018B1106000D1270D /* Ch01_UITableView_03_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A3029F18B1106000D1270D /* Ch01_UITableView_03_Storyboard.storyboard */; };
+		E1A302A218B1277400D1270D /* Ch01_UITableView_02_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A302A118B1277400D1270D /* Ch01_UITableView_02_Storyboard.storyboard */; };
+		E1A302A618B1280900D1270D /* Ch01_UITableView_02_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A302A418B1280900D1270D /* Ch01_UITableView_02_TableViewController.m */; };
+		E1A302A718B1280900D1270D /* Ch01_UITableView_02_TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A302A518B1280900D1270D /* Ch01_UITableView_02_TableViewController.xib */; };
+		E1A302AF18B145D100D1270D /* Ch01_UISwitch_01_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A302AD18B145D100D1270D /* Ch01_UISwitch_01_ViewController.m */; };
+		E1A302B018B145D100D1270D /* Ch01_UISwitch_01_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A302AE18B145D100D1270D /* Ch01_UISwitch_01_ViewController.xib */; };
+		E1A302B518B14E1700D1270D /* Ch01_UISegmentedControl_01_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A302B318B14E1700D1270D /* Ch01_UISegmentedControl_01_ViewController.m */; };
+		E1A302B618B14E1700D1270D /* Ch01_UISegmentedControl_01_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A302B418B14E1700D1270D /* Ch01_UISegmentedControl_01_ViewController.xib */; };
+		E1A302BA18B1538000D1270D /* Ch01_UISegmentedControl_02_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A302B818B1538000D1270D /* Ch01_UISegmentedControl_02_ViewController.m */; };
+		E1A302BB18B1538000D1270D /* Ch01_UISegmentedControl_02_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A302B918B1538000D1270D /* Ch01_UISegmentedControl_02_ViewController.xib */; };
+		E1A302BF18B1538F00D1270D /* Ch01_UISegmentedControl_03_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A302BD18B1538F00D1270D /* Ch01_UISegmentedControl_03_ViewController.m */; };
+		E1A302C018B1538F00D1270D /* Ch01_UISegmentedControl_03_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A302BE18B1538F00D1270D /* Ch01_UISegmentedControl_03_ViewController.xib */; };
+		E1A302C418B153A700D1270D /* Ch01_UISegmentedControl_04_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A302C218B153A700D1270D /* Ch01_UISegmentedControl_04_ViewController.m */; };
+		E1A302C518B153A700D1270D /* Ch01_UISegmentedControl_04_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A302C318B153A700D1270D /* Ch01_UISegmentedControl_04_ViewController.xib */; };
+		E1A302E618B164C900D1270D /* fast_forward.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A302E318B164C900D1270D /* fast_forward.png */; };
+		E1A302E718B164C900D1270D /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A302E418B164C900D1270D /* play.png */; };
+		E1A302E818B164C900D1270D /* rewind_to_start_01.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A302E518B164C900D1270D /* rewind_to_start_01.png */; };
+		E1F0745F1819DDD400EE1BEA /* Ch01_UIProgressView_02_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F0745B1819DDD400EE1BEA /* Ch01_UIProgressView_02_ViewController.m */; };
+		E1F074601819DDD400EE1BEA /* Ch01_UIProgressView_02_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F0745C1819DDD400EE1BEA /* Ch01_UIProgressView_02_ViewController.xib */; };
+		E1F1F9DF187187E100F387D3 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F1F9DD187187E100F387D3 /* MainTableViewController.m */; };
+		E1F1F9E0187187E100F387D3 /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F1F9DE187187E100F387D3 /* MainTableViewController.xib */; };
+		E1F358801816EA580036DCC6 /* Ch01_UILabel_03_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F3587E1816EA580036DCC6 /* Ch01_UILabel_03_ViewController.m */; };
+		E1F358811816EA580036DCC6 /* Ch01_UILabel_03_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F3587F1816EA580036DCC6 /* Ch01_UILabel_03_ViewController.xib */; };
+		E1FFBEB918591625000AB3C3 /* Ch01_UISlider_01_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FFBEB718591625000AB3C3 /* Ch01_UISlider_01_ViewController.m */; };
+		E1FFBEBA18591625000AB3C3 /* Ch01_UISlider_01_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1FFBEB818591625000AB3C3 /* Ch01_UISlider_01_ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1960F8D1807439400EBAF61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1960F651807439400EBAF61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1960F6C1807439400EBAF61;
+			remoteInfo = iOSRecipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E100705A1878EFF0000551BC /* Ch01_UITextField_01_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UITextField_01_ViewController.h; sourceTree = "<group>"; };
+		E100705B1878EFF0000551BC /* Ch01_UITextField_01_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UITextField_01_ViewController.m; sourceTree = "<group>"; };
+		E100705C1878EFF0000551BC /* Ch01_UITextField_01_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UITextField_01_ViewController.xib; sourceTree = "<group>"; };
+		E101DBBB189865190089D237 /* Ch01_UITableView_01_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UITableView_01_TableViewController.h; sourceTree = "<group>"; };
+		E101DBBC189865190089D237 /* Ch01_UITableView_01_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UITableView_01_TableViewController.m; sourceTree = "<group>"; };
+		E101DBBD189865190089D237 /* Ch01_UITableView_01_TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UITableView_01_TableViewController.xib; sourceTree = "<group>"; };
+		E101DBC01898657C0089D237 /* Ch01_UITableView_01_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch01_UITableView_01_Storyboard.storyboard; sourceTree = "<group>"; };
+		E1056B361882B75400A3F8D5 /* Ch01_UIAlertView_02_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIAlertView_02_ViewController.h; sourceTree = "<group>"; };
+		E1056B371882B75400A3F8D5 /* Ch01_UIAlertView_02_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIAlertView_02_ViewController.m; sourceTree = "<group>"; };
+		E1056B381882B75400A3F8D5 /* Ch01_UIAlertView_02_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIAlertView_02_ViewController.xib; sourceTree = "<group>"; };
+		E1056B3C1882D90400A3F8D5 /* Ch01_UIPopoverController_01_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIPopoverController_01_ViewController.h; sourceTree = "<group>"; };
+		E1056B3D1882D90400A3F8D5 /* Ch01_UIPopoverController_01_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIPopoverController_01_ViewController.m; sourceTree = "<group>"; };
+		E1056B3E1882D90400A3F8D5 /* Ch01_UIPopoverController_01_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIPopoverController_01_ViewController.xib; sourceTree = "<group>"; };
+		E1056B411882E5FA00A3F8D5 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		E1056B421882E5FA00A3F8D5 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		E1056B431882E5FA00A3F8D5 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
+		E10BE3A51883883E0033E75F /* Ch01_UIPopoverController_02_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIPopoverController_02_ViewController.h; sourceTree = "<group>"; };
+		E10BE3A61883883E0033E75F /* Ch01_UIPopoverController_02_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIPopoverController_02_ViewController.m; sourceTree = "<group>"; };
+		E10BE3A71883883E0033E75F /* Ch01_UIPopoverController_02_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIPopoverController_02_ViewController.xib; sourceTree = "<group>"; };
+		E10BE3AA18839EB10033E75F /* Content2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Content2ViewController.h; sourceTree = "<group>"; };
+		E10BE3AB18839EB10033E75F /* Content2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Content2ViewController.m; sourceTree = "<group>"; };
+		E10BE3AC18839EB10033E75F /* Content2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Content2ViewController.xib; sourceTree = "<group>"; };
+		E10BE3B01883AED60033E75F /* Ch01_UIPickerView_01_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIPickerView_01_ViewController.h; sourceTree = "<group>"; };
+		E10BE3B11883AED60033E75F /* Ch01_UIPickerView_01_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIPickerView_01_ViewController.m; sourceTree = "<group>"; };
+		E10BE3B21883AED60033E75F /* Ch01_UIPickerView_01_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIPickerView_01_ViewController.xib; sourceTree = "<group>"; };
+		E10BE3B51883B3EA0033E75F /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		E10BE3B61883B3EA0033E75F /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		E10BE3B71883B3EA0033E75F /* PickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerViewController.xib; sourceTree = "<group>"; };
+		E10BE3C51883DF5B0033E75F /* ClosePickerViewDeledate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClosePickerViewDeledate.h; sourceTree = "<group>"; };
+		E10BE3C61883E09D0033E75F /* Ch01_UIPickerView_02_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIPickerView_02_ViewController.h; sourceTree = "<group>"; };
+		E10BE3C71883E09D0033E75F /* Ch01_UIPickerView_02_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIPickerView_02_ViewController.m; sourceTree = "<group>"; };
+		E10BE3C81883E09D0033E75F /* Ch01_UIPickerView_02_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIPickerView_02_ViewController.xib; sourceTree = "<group>"; };
+		E10BE3CB1883E0BA0033E75F /* PickerView2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerView2Controller.h; sourceTree = "<group>"; };
+		E10BE3CC1883E0BA0033E75F /* PickerView2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerView2Controller.m; sourceTree = "<group>"; };
+		E10BE3CD1883E0BA0033E75F /* PickerView2Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerView2Controller.xib; sourceTree = "<group>"; };
+		E1143CDD18791A1200C48BD6 /* Ch01_UITextField_02_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UITextField_02_ViewController.h; sourceTree = "<group>"; };
+		E1143CDE18791A1300C48BD6 /* Ch01_UITextField_02_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UITextField_02_ViewController.m; sourceTree = "<group>"; };
+		E1143CDF18791A1300C48BD6 /* Ch01_UITextField_02_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UITextField_02_ViewController.xib; sourceTree = "<group>"; };
+		E1143CE2187931EC00C48BD6 /* Ch01_UITextField_03_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UITextField_03_ViewController.h; sourceTree = "<group>"; };
+		E1143CE3187931EC00C48BD6 /* Ch01_UITextField_03_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UITextField_03_ViewController.m; sourceTree = "<group>"; };
+		E1143CE4187931EC00C48BD6 /* Ch01_UITextField_03_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UITextField_03_ViewController.xib; sourceTree = "<group>"; };
+		E12DDC93181866DB00AA0F13 /* Ch01_UIProgressView_01_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIProgressView_01_ViewController.h; sourceTree = "<group>"; };
+		E12DDC94181866DB00AA0F13 /* Ch01_UIProgressView_01_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIProgressView_01_ViewController.m; sourceTree = "<group>"; };
+		E12DDC95181866DB00AA0F13 /* Ch01_UIProgressView_01_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIProgressView_01_ViewController.xib; sourceTree = "<group>"; };
+		E1402E731878537C00DA00B3 /* Ch01_UIButton_01_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIButton_01_ViewController.h; sourceTree = "<group>"; };
+		E1402E741878537C00DA00B3 /* Ch01_UIButton_01_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIButton_01_ViewController.m; sourceTree = "<group>"; };
+		E1402E751878537C00DA00B3 /* Ch01_UIButton_01_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIButton_01_ViewController.xib; sourceTree = "<group>"; };
+		E1402E781878539300DA00B3 /* Ch01_UIButton_02_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIButton_02_ViewController.h; sourceTree = "<group>"; };
+		E1402E791878539300DA00B3 /* Ch01_UIButton_02_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIButton_02_ViewController.m; sourceTree = "<group>"; };
+		E1402E7A1878539300DA00B3 /* Ch01_UIButton_02_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIButton_02_ViewController.xib; sourceTree = "<group>"; };
+		E141179B187CA92B0043F3DD /* Ch01_UITextView_01_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UITextView_01_ViewController.h; sourceTree = "<group>"; };
+		E141179C187CA92B0043F3DD /* Ch01_UITextView_01_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UITextView_01_ViewController.m; sourceTree = "<group>"; };
+		E141179D187CA92B0043F3DD /* Ch01_UITextView_01_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UITextView_01_ViewController.xib; sourceTree = "<group>"; };
+		E14117A1187CB50A0043F3DD /* Ch01_UIAlertView_01_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIAlertView_01_ViewController.h; sourceTree = "<group>"; };
+		E14117A2187CB50A0043F3DD /* Ch01_UIAlertView_01_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIAlertView_01_ViewController.m; sourceTree = "<group>"; };
+		E14117A3187CB50A0043F3DD /* Ch01_UIAlertView_01_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIAlertView_01_ViewController.xib; sourceTree = "<group>"; };
+		E152AA1D188EC6BB004EF29B /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		E152AA1E188EC6BB004EF29B /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pink.png; sourceTree = "<group>"; };
+		E152AA1F188EC6BB004EF29B /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		E152AA24188EC733004EF29B /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray.png; sourceTree = "<group>"; };
+		E1551FF11894BE04002D8078 /* Ch01_UISlider_02_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UISlider_02_ViewController.h; sourceTree = "<group>"; };
+		E1551FF21894BE04002D8078 /* Ch01_UISlider_02_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UISlider_02_ViewController.m; sourceTree = "<group>"; };
+		E1551FF31894BE04002D8078 /* Ch01_UISlider_02_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UISlider_02_ViewController.xib; sourceTree = "<group>"; };
+		E1551FF61894D2C2002D8078 /* custom_slider_max.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_slider_max.png; sourceTree = "<group>"; };
+		E1551FF71894D2C2002D8078 /* custom_slider_min.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_slider_min.png; sourceTree = "<group>"; };
+		E1551FFA1894EA11002D8078 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		E1551FFC189506EB002D8078 /* Ch01_UITextField_05_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UITextField_05_ViewController.h; sourceTree = "<group>"; };
+		E1551FFD189506EB002D8078 /* Ch01_UITextField_05_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UITextField_05_ViewController.m; sourceTree = "<group>"; };
+		E1551FFE189506EB002D8078 /* Ch01_UITextField_05_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UITextField_05_ViewController.xib; sourceTree = "<group>"; };
+		E155200218952509002D8078 /* Ch01_UIActionSheet_01_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIActionSheet_01_ViewController.h; sourceTree = "<group>"; };
+		E155200318952509002D8078 /* Ch01_UIActionSheet_01_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIActionSheet_01_ViewController.m; sourceTree = "<group>"; };
+		E155200418952509002D8078 /* Ch01_UIActionSheet_01_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIActionSheet_01_ViewController.xib; sourceTree = "<group>"; };
+		E155200818954886002D8078 /* Ch01_UIDatePicker_01_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIDatePicker_01_ViewController.h; sourceTree = "<group>"; };
+		E155200918954886002D8078 /* Ch01_UIDatePicker_01_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIDatePicker_01_ViewController.m; sourceTree = "<group>"; };
+		E155200A18954886002D8078 /* Ch01_UIDatePicker_01_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIDatePicker_01_ViewController.xib; sourceTree = "<group>"; };
+		E155200D1895515F002D8078 /* Ch01_UIDatePicker_02_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIDatePicker_02_ViewController.h; sourceTree = "<group>"; };
+		E155200E1895515F002D8078 /* Ch01_UIDatePicker_02_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIDatePicker_02_ViewController.m; sourceTree = "<group>"; };
+		E155200F1895515F002D8078 /* Ch01_UIDatePicker_02_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIDatePicker_02_ViewController.xib; sourceTree = "<group>"; };
+		E155201218955416002D8078 /* Ch01_UIDatePicker_03_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIDatePicker_03_ViewController.h; sourceTree = "<group>"; };
+		E155201318955416002D8078 /* Ch01_UIDatePicker_03_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIDatePicker_03_ViewController.m; sourceTree = "<group>"; };
+		E155201418955416002D8078 /* Ch01_UIDatePicker_03_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIDatePicker_03_ViewController.xib; sourceTree = "<group>"; };
+		E15520181895591E002D8078 /* Ch01_UIImageView_01_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIImageView_01_ViewController.h; sourceTree = "<group>"; };
+		E15520191895591E002D8078 /* Ch01_UIImageView_01_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIImageView_01_ViewController.m; sourceTree = "<group>"; };
+		E155201A1895591E002D8078 /* Ch01_UIImageView_01_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIImageView_01_ViewController.xib; sourceTree = "<group>"; };
+		E155201D18955C3E002D8078 /* Ch01_UIImageView_02_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIImageView_02_ViewController.h; sourceTree = "<group>"; };
+		E155201E18955C3E002D8078 /* Ch01_UIImageView_02_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIImageView_02_ViewController.m; sourceTree = "<group>"; };
+		E155201F18955C3E002D8078 /* Ch01_UIImageView_02_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIImageView_02_ViewController.xib; sourceTree = "<group>"; };
+		E155202718955C61002D8078 /* Ch01_UIImageView_04_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIImageView_04_ViewController.h; sourceTree = "<group>"; };
+		E155202818955C61002D8078 /* Ch01_UIImageView_04_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIImageView_04_ViewController.m; sourceTree = "<group>"; };
+		E155202918955C61002D8078 /* Ch01_UIImageView_04_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIImageView_04_ViewController.xib; sourceTree = "<group>"; };
+		E155202C1895613A002D8078 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
+		E155202E189565F7002D8078 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
+		E1960F6D1807439400EBAF61 /* iOSRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1960F701807439400EBAF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1960F721807439400EBAF61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1960F741807439400EBAF61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1960F781807439400EBAF61 /* iOSRecipe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSRecipe-Info.plist"; sourceTree = "<group>"; };
+		E1960F7A1807439400EBAF61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1960F7C1807439400EBAF61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1960F7E1807439400EBAF61 /* iOSRecipe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSRecipe-Prefix.pch"; sourceTree = "<group>"; };
+		E1960F7F1807439400EBAF61 /* Ch01_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ch01_AppDelegate.h; sourceTree = "<group>"; };
+		E1960F801807439400EBAF61 /* Ch01_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ch01_AppDelegate.m; sourceTree = "<group>"; };
+		E1960F821807439400EBAF61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1960F881807439400EBAF61 /* iOSRecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSRecipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1960F891807439400EBAF61 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E1960F911807439400EBAF61 /* iOSRecipeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSRecipeTests-Info.plist"; sourceTree = "<group>"; };
+		E1960F931807439400EBAF61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1960F951807439400EBAF61 /* iOSRecipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSRecipeTests.m; sourceTree = "<group>"; };
+		E1960FA01807454800EBAF61 /* Ch01_UILabel_01_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UILabel_01_ViewController.h; sourceTree = "<group>"; };
+		E1960FA11807454800EBAF61 /* Ch01_UILabel_01_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UILabel_01_ViewController.m; sourceTree = "<group>"; };
+		E1960FA21807454800EBAF61 /* Ch01_UILabel_01_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UILabel_01_ViewController.xib; sourceTree = "<group>"; };
+		E1960FA51807458C00EBAF61 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E1960FA61807458C00EBAF61 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E1969D231809FEDF00F9E882 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E19BBAFC180C9F820039CDF8 /* Ch01_UILabel_02_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UILabel_02_ViewController.h; sourceTree = "<group>"; };
+		E19BBAFD180C9F820039CDF8 /* Ch01_UILabel_02_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UILabel_02_ViewController.m; sourceTree = "<group>"; };
+		E19BBAFE180C9F820039CDF8 /* Ch01_UILabel_02_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UILabel_02_ViewController.xib; sourceTree = "<group>"; };
+		E19C279F18A2DD7200DB4509 /* Ch01_UITableView_04_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UITableView_04_TableViewController.h; sourceTree = "<group>"; };
+		E19C27A018A2DD7200DB4509 /* Ch01_UITableView_04_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UITableView_04_TableViewController.m; sourceTree = "<group>"; };
+		E19C27A118A2DD7200DB4509 /* Ch01_UITableView_04_TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UITableView_04_TableViewController.xib; sourceTree = "<group>"; };
+		E19C27A618A2DEDC00DB4509 /* Ch01_UITableView_04_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch01_UITableView_04_Storyboard.storyboard; sourceTree = "<group>"; };
+		E19C27AA18A2E9FA00DB4509 /* Ch01_UITableView_03_TableViewControlle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UITableView_03_TableViewControlle.h; sourceTree = "<group>"; };
+		E19C27AB18A2E9FA00DB4509 /* Ch01_UITableView_03_TableViewControlle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UITableView_03_TableViewControlle.m; sourceTree = "<group>"; };
+		E19C27AC18A2E9FA00DB4509 /* Ch01_UITableView_03_TableViewControlle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UITableView_03_TableViewControlle.xib; sourceTree = "<group>"; };
+		E1A3029F18B1106000D1270D /* Ch01_UITableView_03_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch01_UITableView_03_Storyboard.storyboard; sourceTree = "<group>"; };
+		E1A302A118B1277400D1270D /* Ch01_UITableView_02_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch01_UITableView_02_Storyboard.storyboard; sourceTree = "<group>"; };
+		E1A302A318B1280900D1270D /* Ch01_UITableView_02_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UITableView_02_TableViewController.h; sourceTree = "<group>"; };
+		E1A302A418B1280900D1270D /* Ch01_UITableView_02_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UITableView_02_TableViewController.m; sourceTree = "<group>"; };
+		E1A302A518B1280900D1270D /* Ch01_UITableView_02_TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UITableView_02_TableViewController.xib; sourceTree = "<group>"; };
+		E1A302AC18B145D100D1270D /* Ch01_UISwitch_01_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UISwitch_01_ViewController.h; sourceTree = "<group>"; };
+		E1A302AD18B145D100D1270D /* Ch01_UISwitch_01_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UISwitch_01_ViewController.m; sourceTree = "<group>"; };
+		E1A302AE18B145D100D1270D /* Ch01_UISwitch_01_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UISwitch_01_ViewController.xib; sourceTree = "<group>"; };
+		E1A302B218B14E1700D1270D /* Ch01_UISegmentedControl_01_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UISegmentedControl_01_ViewController.h; sourceTree = "<group>"; };
+		E1A302B318B14E1700D1270D /* Ch01_UISegmentedControl_01_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UISegmentedControl_01_ViewController.m; sourceTree = "<group>"; };
+		E1A302B418B14E1700D1270D /* Ch01_UISegmentedControl_01_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UISegmentedControl_01_ViewController.xib; sourceTree = "<group>"; };
+		E1A302B718B1538000D1270D /* Ch01_UISegmentedControl_02_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UISegmentedControl_02_ViewController.h; sourceTree = "<group>"; };
+		E1A302B818B1538000D1270D /* Ch01_UISegmentedControl_02_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UISegmentedControl_02_ViewController.m; sourceTree = "<group>"; };
+		E1A302B918B1538000D1270D /* Ch01_UISegmentedControl_02_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UISegmentedControl_02_ViewController.xib; sourceTree = "<group>"; };
+		E1A302BC18B1538F00D1270D /* Ch01_UISegmentedControl_03_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UISegmentedControl_03_ViewController.h; sourceTree = "<group>"; };
+		E1A302BD18B1538F00D1270D /* Ch01_UISegmentedControl_03_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UISegmentedControl_03_ViewController.m; sourceTree = "<group>"; };
+		E1A302BE18B1538F00D1270D /* Ch01_UISegmentedControl_03_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UISegmentedControl_03_ViewController.xib; sourceTree = "<group>"; };
+		E1A302C118B153A700D1270D /* Ch01_UISegmentedControl_04_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UISegmentedControl_04_ViewController.h; sourceTree = "<group>"; };
+		E1A302C218B153A700D1270D /* Ch01_UISegmentedControl_04_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UISegmentedControl_04_ViewController.m; sourceTree = "<group>"; };
+		E1A302C318B153A700D1270D /* Ch01_UISegmentedControl_04_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UISegmentedControl_04_ViewController.xib; sourceTree = "<group>"; };
+		E1A302E318B164C900D1270D /* fast_forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fast_forward.png; sourceTree = "<group>"; };
+		E1A302E418B164C900D1270D /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		E1A302E518B164C900D1270D /* rewind_to_start_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rewind_to_start_01.png; sourceTree = "<group>"; };
+		E1F0745A1819DDD400EE1BEA /* Ch01_UIProgressView_02_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UIProgressView_02_ViewController.h; sourceTree = "<group>"; };
+		E1F0745B1819DDD400EE1BEA /* Ch01_UIProgressView_02_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UIProgressView_02_ViewController.m; sourceTree = "<group>"; };
+		E1F0745C1819DDD400EE1BEA /* Ch01_UIProgressView_02_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UIProgressView_02_ViewController.xib; sourceTree = "<group>"; };
+		E1F1F9DC187187E100F387D3 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		E1F1F9DD187187E100F387D3 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		E1F1F9DE187187E100F387D3 /* MainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
+		E1F3587D1816EA580036DCC6 /* Ch01_UILabel_03_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UILabel_03_ViewController.h; sourceTree = "<group>"; };
+		E1F3587E1816EA580036DCC6 /* Ch01_UILabel_03_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UILabel_03_ViewController.m; sourceTree = "<group>"; };
+		E1F3587F1816EA580036DCC6 /* Ch01_UILabel_03_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UILabel_03_ViewController.xib; sourceTree = "<group>"; };
+		E1F3589718170A2D0036DCC6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1FFBEB618591625000AB3C3 /* Ch01_UISlider_01_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch01_UISlider_01_ViewController.h; sourceTree = "<group>"; };
+		E1FFBEB718591625000AB3C3 /* Ch01_UISlider_01_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch01_UISlider_01_ViewController.m; sourceTree = "<group>"; };
+		E1FFBEB818591625000AB3C3 /* Ch01_UISlider_01_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ch01_UISlider_01_ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1960F6A1807439400EBAF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1960F731807439400EBAF61 /* CoreGraphics.framework in Frameworks */,
+				E1960F751807439400EBAF61 /* UIKit.framework in Frameworks */,
+				E1960F711807439400EBAF61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1960F851807439400EBAF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1960F8A1807439400EBAF61 /* XCTest.framework in Frameworks */,
+				E1960F8C1807439400EBAF61 /* UIKit.framework in Frameworks */,
+				E1960F8B1807439400EBAF61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E101DBBA189864AC0089D237 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				E101DBBB189865190089D237 /* Ch01_UITableView_01_TableViewController.h */,
+				E101DBBC189865190089D237 /* Ch01_UITableView_01_TableViewController.m */,
+				E101DBBD189865190089D237 /* Ch01_UITableView_01_TableViewController.xib */,
+				E101DBC01898657C0089D237 /* Ch01_UITableView_01_Storyboard.storyboard */,
+				E19C279F18A2DD7200DB4509 /* Ch01_UITableView_04_TableViewController.h */,
+				E19C27A018A2DD7200DB4509 /* Ch01_UITableView_04_TableViewController.m */,
+				E19C27A118A2DD7200DB4509 /* Ch01_UITableView_04_TableViewController.xib */,
+				E19C27A618A2DEDC00DB4509 /* Ch01_UITableView_04_Storyboard.storyboard */,
+				E19C27AA18A2E9FA00DB4509 /* Ch01_UITableView_03_TableViewControlle.h */,
+				E19C27AB18A2E9FA00DB4509 /* Ch01_UITableView_03_TableViewControlle.m */,
+				E19C27AC18A2E9FA00DB4509 /* Ch01_UITableView_03_TableViewControlle.xib */,
+				E1A3029F18B1106000D1270D /* Ch01_UITableView_03_Storyboard.storyboard */,
+				E1A302A318B1280900D1270D /* Ch01_UITableView_02_TableViewController.h */,
+				E1A302A418B1280900D1270D /* Ch01_UITableView_02_TableViewController.m */,
+				E1A302A518B1280900D1270D /* Ch01_UITableView_02_TableViewController.xib */,
+				E1A302A118B1277400D1270D /* Ch01_UITableView_02_Storyboard.storyboard */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		E1056B3B1882D8C200A3F8D5 /* UIPopoverController */ = {
+			isa = PBXGroup;
+			children = (
+				E1056B3C1882D90400A3F8D5 /* Ch01_UIPopoverController_01_ViewController.h */,
+				E1056B3D1882D90400A3F8D5 /* Ch01_UIPopoverController_01_ViewController.m */,
+				E1056B3E1882D90400A3F8D5 /* Ch01_UIPopoverController_01_ViewController.xib */,
+				E1056B411882E5FA00A3F8D5 /* ContentViewController.h */,
+				E1056B421882E5FA00A3F8D5 /* ContentViewController.m */,
+				E1056B431882E5FA00A3F8D5 /* ContentViewController.xib */,
+				E10BE3A51883883E0033E75F /* Ch01_UIPopoverController_02_ViewController.h */,
+				E10BE3A61883883E0033E75F /* Ch01_UIPopoverController_02_ViewController.m */,
+				E10BE3A71883883E0033E75F /* Ch01_UIPopoverController_02_ViewController.xib */,
+				E10BE3AA18839EB10033E75F /* Content2ViewController.h */,
+				E10BE3AB18839EB10033E75F /* Content2ViewController.m */,
+				E10BE3AC18839EB10033E75F /* Content2ViewController.xib */,
+			);
+			path = UIPopoverController;
+			sourceTree = "<group>";
+		};
+		E10BE3AF1883ADF30033E75F /* UIPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				E155202C1895613A002D8078 /* sample.jpg */,
+				E10BE3B01883AED60033E75F /* Ch01_UIPickerView_01_ViewController.h */,
+				E10BE3B11883AED60033E75F /* Ch01_UIPickerView_01_ViewController.m */,
+				E10BE3B21883AED60033E75F /* Ch01_UIPickerView_01_ViewController.xib */,
+				E10BE3B51883B3EA0033E75F /* PickerViewController.h */,
+				E10BE3B61883B3EA0033E75F /* PickerViewController.m */,
+				E10BE3B71883B3EA0033E75F /* PickerViewController.xib */,
+				E10BE3C51883DF5B0033E75F /* ClosePickerViewDeledate.h */,
+				E10BE3C61883E09D0033E75F /* Ch01_UIPickerView_02_ViewController.h */,
+				E10BE3C71883E09D0033E75F /* Ch01_UIPickerView_02_ViewController.m */,
+				E10BE3C81883E09D0033E75F /* Ch01_UIPickerView_02_ViewController.xib */,
+				E10BE3CB1883E0BA0033E75F /* PickerView2Controller.h */,
+				E10BE3CC1883E0BA0033E75F /* PickerView2Controller.m */,
+				E10BE3CD1883E0BA0033E75F /* PickerView2Controller.xib */,
+			);
+			path = UIPickerView;
+			sourceTree = "<group>";
+		};
+		E1402E7218776ED800DA00B3 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				E1402E731878537C00DA00B3 /* Ch01_UIButton_01_ViewController.h */,
+				E1402E741878537C00DA00B3 /* Ch01_UIButton_01_ViewController.m */,
+				E1402E751878537C00DA00B3 /* Ch01_UIButton_01_ViewController.xib */,
+				E1402E781878539300DA00B3 /* Ch01_UIButton_02_ViewController.h */,
+				E1402E791878539300DA00B3 /* Ch01_UIButton_02_ViewController.m */,
+				E1402E7A1878539300DA00B3 /* Ch01_UIButton_02_ViewController.xib */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		E141179A187CA8C00043F3DD /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				E141179B187CA92B0043F3DD /* Ch01_UITextView_01_ViewController.h */,
+				E141179C187CA92B0043F3DD /* Ch01_UITextView_01_ViewController.m */,
+				E141179D187CA92B0043F3DD /* Ch01_UITextView_01_ViewController.xib */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		E14117A0187CB4C20043F3DD /* UIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				E14117A1187CB50A0043F3DD /* Ch01_UIAlertView_01_ViewController.h */,
+				E14117A2187CB50A0043F3DD /* Ch01_UIAlertView_01_ViewController.m */,
+				E14117A3187CB50A0043F3DD /* Ch01_UIAlertView_01_ViewController.xib */,
+				E1056B361882B75400A3F8D5 /* Ch01_UIAlertView_02_ViewController.h */,
+				E1056B371882B75400A3F8D5 /* Ch01_UIAlertView_02_ViewController.m */,
+				E1056B381882B75400A3F8D5 /* Ch01_UIAlertView_02_ViewController.xib */,
+			);
+			path = UIAlertView;
+			sourceTree = "<group>";
+		};
+		E1552001189524C1002D8078 /* UIActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				E155200218952509002D8078 /* Ch01_UIActionSheet_01_ViewController.h */,
+				E155200318952509002D8078 /* Ch01_UIActionSheet_01_ViewController.m */,
+				E155200418952509002D8078 /* Ch01_UIActionSheet_01_ViewController.xib */,
+			);
+			path = UIActionSheet;
+			sourceTree = "<group>";
+		};
+		E155200718954826002D8078 /* UIDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				E155200818954886002D8078 /* Ch01_UIDatePicker_01_ViewController.h */,
+				E155200918954886002D8078 /* Ch01_UIDatePicker_01_ViewController.m */,
+				E155200A18954886002D8078 /* Ch01_UIDatePicker_01_ViewController.xib */,
+				E155200D1895515F002D8078 /* Ch01_UIDatePicker_02_ViewController.h */,
+				E155200E1895515F002D8078 /* Ch01_UIDatePicker_02_ViewController.m */,
+				E155200F1895515F002D8078 /* Ch01_UIDatePicker_02_ViewController.xib */,
+				E155201218955416002D8078 /* Ch01_UIDatePicker_03_ViewController.h */,
+				E155201318955416002D8078 /* Ch01_UIDatePicker_03_ViewController.m */,
+				E155201418955416002D8078 /* Ch01_UIDatePicker_03_ViewController.xib */,
+			);
+			path = UIDatePicker;
+			sourceTree = "<group>";
+		};
+		E1552017189558BD002D8078 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				E15520181895591E002D8078 /* Ch01_UIImageView_01_ViewController.h */,
+				E15520191895591E002D8078 /* Ch01_UIImageView_01_ViewController.m */,
+				E155201A1895591E002D8078 /* Ch01_UIImageView_01_ViewController.xib */,
+				E155201D18955C3E002D8078 /* Ch01_UIImageView_02_ViewController.h */,
+				E155201E18955C3E002D8078 /* Ch01_UIImageView_02_ViewController.m */,
+				E155201F18955C3E002D8078 /* Ch01_UIImageView_02_ViewController.xib */,
+				E155202718955C61002D8078 /* Ch01_UIImageView_04_ViewController.h */,
+				E155202818955C61002D8078 /* Ch01_UIImageView_04_ViewController.m */,
+				E155202918955C61002D8078 /* Ch01_UIImageView_04_ViewController.xib */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		E1960F641807439400EBAF61 = {
+			isa = PBXGroup;
+			children = (
+				E1960F761807439400EBAF61 /* iOSRecipe */,
+				E1960F8F1807439400EBAF61 /* iOSRecipeTests */,
+				E1960F6F1807439400EBAF61 /* Frameworks */,
+				E1960F6E1807439400EBAF61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1960F6E1807439400EBAF61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1960F6D1807439400EBAF61 /* iOSRecipe.app */,
+				E1960F881807439400EBAF61 /* iOSRecipeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1960F6F1807439400EBAF61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1960F701807439400EBAF61 /* Foundation.framework */,
+				E1960F721807439400EBAF61 /* CoreGraphics.framework */,
+				E1960F741807439400EBAF61 /* UIKit.framework */,
+				E1960F891807439400EBAF61 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1960F761807439400EBAF61 /* iOSRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				E1A302B118B14D9C00D1270D /* UISegmentedControl */,
+				E1A302A818B1441F00D1270D /* UISwitch */,
+				E101DBBA189864AC0089D237 /* UITableView */,
+				E1552017189558BD002D8078 /* UIImageView */,
+				E155200718954826002D8078 /* UIDatePicker */,
+				E1552001189524C1002D8078 /* UIActionSheet */,
+				E10BE3AF1883ADF30033E75F /* UIPickerView */,
+				E1056B3B1882D8C200A3F8D5 /* UIPopoverController */,
+				E14117A0187CB4C20043F3DD /* UIAlertView */,
+				E141179A187CA8C00043F3DD /* UITextView */,
+				E19A743918789F96007A3178 /* UITextField */,
+				E1402E7218776ED800DA00B3 /* UIButton */,
+				E1FFBEB518591545000AB3C3 /* UISlider */,
+				E1F358871816FFBA0036DCC6 /* UIProgressView */,
+				E1960F9F180743D900EBAF61 /* UILabel */,
+				E1960F7F1807439400EBAF61 /* Ch01_AppDelegate.h */,
+				E1960F801807439400EBAF61 /* Ch01_AppDelegate.m */,
+				E1960F821807439400EBAF61 /* Images.xcassets */,
+				E1960F771807439400EBAF61 /* Supporting Files */,
+				E1960FA51807458C00EBAF61 /* MainViewController.h */,
+				E1960FA61807458C00EBAF61 /* MainViewController.m */,
+				E1969D231809FEDF00F9E882 /* Main.storyboard */,
+				E1F1F9DC187187E100F387D3 /* MainTableViewController.h */,
+				E1F1F9DD187187E100F387D3 /* MainTableViewController.m */,
+				E1F1F9DE187187E100F387D3 /* MainTableViewController.xib */,
+			);
+			path = iOSRecipe;
+			sourceTree = "<group>";
+		};
+		E1960F771807439400EBAF61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1A302E318B164C900D1270D /* fast_forward.png */,
+				E1A302E418B164C900D1270D /* play.png */,
+				E1A302E518B164C900D1270D /* rewind_to_start_01.png */,
+				E155202E189565F7002D8078 /* sample.jpg */,
+				E1551FFA1894EA11002D8078 /* ball.png */,
+				E1551FF61894D2C2002D8078 /* custom_slider_max.png */,
+				E1551FF71894D2C2002D8078 /* custom_slider_min.png */,
+				E152AA24188EC733004EF29B /* gray.png */,
+				E152AA1D188EC6BB004EF29B /* green.png */,
+				E152AA1E188EC6BB004EF29B /* pink.png */,
+				E152AA1F188EC6BB004EF29B /* red.png */,
+				E1960F781807439400EBAF61 /* iOSRecipe-Info.plist */,
+				E1960F791807439400EBAF61 /* InfoPlist.strings */,
+				E1960F7C1807439400EBAF61 /* main.m */,
+				E1960F7E1807439400EBAF61 /* iOSRecipe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1960F8F1807439400EBAF61 /* iOSRecipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1960F951807439400EBAF61 /* iOSRecipeTests.m */,
+				E1960F901807439400EBAF61 /* Supporting Files */,
+			);
+			path = iOSRecipeTests;
+			sourceTree = "<group>";
+		};
+		E1960F901807439400EBAF61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1960F911807439400EBAF61 /* iOSRecipeTests-Info.plist */,
+				E1960F921807439400EBAF61 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1960F9F180743D900EBAF61 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				E1F3587D1816EA580036DCC6 /* Ch01_UILabel_03_ViewController.h */,
+				E1F3587E1816EA580036DCC6 /* Ch01_UILabel_03_ViewController.m */,
+				E1F3587F1816EA580036DCC6 /* Ch01_UILabel_03_ViewController.xib */,
+				E19BBAFC180C9F820039CDF8 /* Ch01_UILabel_02_ViewController.h */,
+				E19BBAFD180C9F820039CDF8 /* Ch01_UILabel_02_ViewController.m */,
+				E19BBAFE180C9F820039CDF8 /* Ch01_UILabel_02_ViewController.xib */,
+				E1960FA01807454800EBAF61 /* Ch01_UILabel_01_ViewController.h */,
+				E1960FA11807454800EBAF61 /* Ch01_UILabel_01_ViewController.m */,
+				E1960FA21807454800EBAF61 /* Ch01_UILabel_01_ViewController.xib */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		E19A743918789F96007A3178 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				E100705A1878EFF0000551BC /* Ch01_UITextField_01_ViewController.h */,
+				E100705B1878EFF0000551BC /* Ch01_UITextField_01_ViewController.m */,
+				E100705C1878EFF0000551BC /* Ch01_UITextField_01_ViewController.xib */,
+				E1143CDD18791A1200C48BD6 /* Ch01_UITextField_02_ViewController.h */,
+				E1143CDE18791A1300C48BD6 /* Ch01_UITextField_02_ViewController.m */,
+				E1143CDF18791A1300C48BD6 /* Ch01_UITextField_02_ViewController.xib */,
+				E1143CE2187931EC00C48BD6 /* Ch01_UITextField_03_ViewController.h */,
+				E1143CE3187931EC00C48BD6 /* Ch01_UITextField_03_ViewController.m */,
+				E1143CE4187931EC00C48BD6 /* Ch01_UITextField_03_ViewController.xib */,
+				E1551FFC189506EB002D8078 /* Ch01_UITextField_05_ViewController.h */,
+				E1551FFD189506EB002D8078 /* Ch01_UITextField_05_ViewController.m */,
+				E1551FFE189506EB002D8078 /* Ch01_UITextField_05_ViewController.xib */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		E1A302A818B1441F00D1270D /* UISwitch */ = {
+			isa = PBXGroup;
+			children = (
+				E1A302AC18B145D100D1270D /* Ch01_UISwitch_01_ViewController.h */,
+				E1A302AD18B145D100D1270D /* Ch01_UISwitch_01_ViewController.m */,
+				E1A302AE18B145D100D1270D /* Ch01_UISwitch_01_ViewController.xib */,
+			);
+			path = UISwitch;
+			sourceTree = "<group>";
+		};
+		E1A302B118B14D9C00D1270D /* UISegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				E1A302B218B14E1700D1270D /* Ch01_UISegmentedControl_01_ViewController.h */,
+				E1A302B318B14E1700D1270D /* Ch01_UISegmentedControl_01_ViewController.m */,
+				E1A302B418B14E1700D1270D /* Ch01_UISegmentedControl_01_ViewController.xib */,
+				E1A302B718B1538000D1270D /* Ch01_UISegmentedControl_02_ViewController.h */,
+				E1A302B818B1538000D1270D /* Ch01_UISegmentedControl_02_ViewController.m */,
+				E1A302B918B1538000D1270D /* Ch01_UISegmentedControl_02_ViewController.xib */,
+				E1A302BC18B1538F00D1270D /* Ch01_UISegmentedControl_03_ViewController.h */,
+				E1A302BD18B1538F00D1270D /* Ch01_UISegmentedControl_03_ViewController.m */,
+				E1A302BE18B1538F00D1270D /* Ch01_UISegmentedControl_03_ViewController.xib */,
+				E1A302C118B153A700D1270D /* Ch01_UISegmentedControl_04_ViewController.h */,
+				E1A302C218B153A700D1270D /* Ch01_UISegmentedControl_04_ViewController.m */,
+				E1A302C318B153A700D1270D /* Ch01_UISegmentedControl_04_ViewController.xib */,
+			);
+			path = UISegmentedControl;
+			sourceTree = "<group>";
+		};
+		E1F358871816FFBA0036DCC6 /* UIProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				E1F0745A1819DDD400EE1BEA /* Ch01_UIProgressView_02_ViewController.h */,
+				E1F0745B1819DDD400EE1BEA /* Ch01_UIProgressView_02_ViewController.m */,
+				E1F0745C1819DDD400EE1BEA /* Ch01_UIProgressView_02_ViewController.xib */,
+				E12DDC93181866DB00AA0F13 /* Ch01_UIProgressView_01_ViewController.h */,
+				E12DDC94181866DB00AA0F13 /* Ch01_UIProgressView_01_ViewController.m */,
+				E12DDC95181866DB00AA0F13 /* Ch01_UIProgressView_01_ViewController.xib */,
+			);
+			path = UIProgressView;
+			sourceTree = "<group>";
+		};
+		E1FFBEB518591545000AB3C3 /* UISlider */ = {
+			isa = PBXGroup;
+			children = (
+				E1FFBEB618591625000AB3C3 /* Ch01_UISlider_01_ViewController.h */,
+				E1FFBEB718591625000AB3C3 /* Ch01_UISlider_01_ViewController.m */,
+				E1FFBEB818591625000AB3C3 /* Ch01_UISlider_01_ViewController.xib */,
+				E1551FF11894BE04002D8078 /* Ch01_UISlider_02_ViewController.h */,
+				E1551FF21894BE04002D8078 /* Ch01_UISlider_02_ViewController.m */,
+				E1551FF31894BE04002D8078 /* Ch01_UISlider_02_ViewController.xib */,
+			);
+			path = UISlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1960F6C1807439400EBAF61 /* iOSRecipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1960F991807439400EBAF61 /* Build configuration list for PBXNativeTarget "iOSRecipe" */;
+			buildPhases = (
+				E1960F691807439400EBAF61 /* Sources */,
+				E1960F6A1807439400EBAF61 /* Frameworks */,
+				E1960F6B1807439400EBAF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSRecipe;
+			productName = iOSRecipe;
+			productReference = E1960F6D1807439400EBAF61 /* iOSRecipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1960F871807439400EBAF61 /* iOSRecipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1960F9C1807439400EBAF61 /* Build configuration list for PBXNativeTarget "iOSRecipeTests" */;
+			buildPhases = (
+				E1960F841807439400EBAF61 /* Sources */,
+				E1960F851807439400EBAF61 /* Frameworks */,
+				E1960F861807439400EBAF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1960F8E1807439400EBAF61 /* PBXTargetDependency */,
+			);
+			name = iOSRecipeTests;
+			productName = iOSRecipeTests;
+			productReference = E1960F881807439400EBAF61 /* iOSRecipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1960F651807439400EBAF61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Ch01_;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = shaoeisya;
+				TargetAttributes = {
+					E1960F871807439400EBAF61 = {
+						TestTargetID = E1960F6C1807439400EBAF61;
+					};
+				};
+			};
+			buildConfigurationList = E1960F681807439400EBAF61 /* Build configuration list for PBXProject "iOSRecipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = E1960F641807439400EBAF61;
+			productRefGroup = E1960F6E1807439400EBAF61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1960F6C1807439400EBAF61 /* iOSRecipe */,
+				E1960F871807439400EBAF61 /* iOSRecipeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1960F6B1807439400EBAF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1960F7B1807439400EBAF61 /* InfoPlist.strings in Resources */,
+				E155202B18955C61002D8078 /* Ch01_UIImageView_04_ViewController.xib in Resources */,
+				E1143CE6187931EC00C48BD6 /* Ch01_UITextField_03_ViewController.xib in Resources */,
+				E1FFBEBA18591625000AB3C3 /* Ch01_UISlider_01_ViewController.xib in Resources */,
+				E19BBB00180C9F820039CDF8 /* Ch01_UILabel_02_ViewController.xib in Resources */,
+				E155201618955416002D8078 /* Ch01_UIDatePicker_03_ViewController.xib in Resources */,
+				E1A302A018B1106000D1270D /* Ch01_UITableView_03_Storyboard.storyboard in Resources */,
+				E1F358811816EA580036DCC6 /* Ch01_UILabel_03_ViewController.xib in Resources */,
+				E1960F831807439400EBAF61 /* Images.xcassets in Resources */,
+				E152AA25188EC733004EF29B /* gray.png in Resources */,
+				E1402E771878537C00DA00B3 /* Ch01_UIButton_01_ViewController.xib in Resources */,
+				E1A302BB18B1538000D1270D /* Ch01_UISegmentedControl_02_ViewController.xib in Resources */,
+				E19C27A318A2DD7200DB4509 /* Ch01_UITableView_04_TableViewController.xib in Resources */,
+				E155200C18954886002D8078 /* Ch01_UIDatePicker_01_ViewController.xib in Resources */,
+				E1A302E618B164C900D1270D /* fast_forward.png in Resources */,
+				E1A302B018B145D100D1270D /* Ch01_UISwitch_01_ViewController.xib in Resources */,
+				E155202118955C3E002D8078 /* Ch01_UIImageView_02_ViewController.xib in Resources */,
+				E1402E7C1878539300DA00B3 /* Ch01_UIButton_02_ViewController.xib in Resources */,
+				E10BE3CA1883E09D0033E75F /* Ch01_UIPickerView_02_ViewController.xib in Resources */,
+				E101DBBF189865190089D237 /* Ch01_UITableView_01_TableViewController.xib in Resources */,
+				E141179F187CA92B0043F3DD /* Ch01_UITextView_01_ViewController.xib in Resources */,
+				E1551FF91894D2C2002D8078 /* custom_slider_min.png in Resources */,
+				E100705E1878EFF0000551BC /* Ch01_UITextField_01_ViewController.xib in Resources */,
+				E155200618952509002D8078 /* Ch01_UIActionSheet_01_ViewController.xib in Resources */,
+				E152AA21188EC6BB004EF29B /* green.png in Resources */,
+				E1A302A218B1277400D1270D /* Ch01_UITableView_02_Storyboard.storyboard in Resources */,
+				E1552000189506EB002D8078 /* Ch01_UITextField_05_ViewController.xib in Resources */,
+				E152AA22188EC6BB004EF29B /* pink.png in Resources */,
+				E155202D1895613A002D8078 /* sample.jpg in Resources */,
+				E12DDC97181866DC00AA0F13 /* Ch01_UIProgressView_01_ViewController.xib in Resources */,
+				E101DBC11898657C0089D237 /* Ch01_UITableView_01_Storyboard.storyboard in Resources */,
+				E1143CE118791A1300C48BD6 /* Ch01_UITextField_02_ViewController.xib in Resources */,
+				E1551FF51894BE04002D8078 /* Ch01_UISlider_02_ViewController.xib in Resources */,
+				E1A302C518B153A700D1270D /* Ch01_UISegmentedControl_04_ViewController.xib in Resources */,
+				E1551FFB1894EA11002D8078 /* ball.png in Resources */,
+				E14117A5187CB50A0043F3DD /* Ch01_UIAlertView_01_ViewController.xib in Resources */,
+				E10BE3A91883883E0033E75F /* Ch01_UIPopoverController_02_ViewController.xib in Resources */,
+				E1960FA41807454800EBAF61 /* Ch01_UILabel_01_ViewController.xib in Resources */,
+				E1A302B618B14E1700D1270D /* Ch01_UISegmentedControl_01_ViewController.xib in Resources */,
+				E1A302E818B164C900D1270D /* rewind_to_start_01.png in Resources */,
+				E1A302A718B1280900D1270D /* Ch01_UITableView_02_TableViewController.xib in Resources */,
+				E1A302E718B164C900D1270D /* play.png in Resources */,
+				E152AA23188EC6BB004EF29B /* red.png in Resources */,
+				E155202F189565F7002D8078 /* sample.jpg in Resources */,
+				E10BE3AE18839EB10033E75F /* Content2ViewController.xib in Resources */,
+				E15520111895515F002D8078 /* Ch01_UIDatePicker_02_ViewController.xib in Resources */,
+				E1A302C018B1538F00D1270D /* Ch01_UISegmentedControl_03_ViewController.xib in Resources */,
+				E1551FF81894D2C2002D8078 /* custom_slider_max.png in Resources */,
+				E10BE3B41883AED60033E75F /* Ch01_UIPickerView_01_ViewController.xib in Resources */,
+				E155201C1895591E002D8078 /* Ch01_UIImageView_01_ViewController.xib in Resources */,
+				E10BE3CF1883E0BA0033E75F /* PickerView2Controller.xib in Resources */,
+				E1F074601819DDD400EE1BEA /* Ch01_UIProgressView_02_ViewController.xib in Resources */,
+				E19C27AE18A2E9FA00DB4509 /* Ch01_UITableView_03_TableViewControlle.xib in Resources */,
+				E1F1F9E0187187E100F387D3 /* MainTableViewController.xib in Resources */,
+				E1056B451882E5FA00A3F8D5 /* ContentViewController.xib in Resources */,
+				E1056B401882D90400A3F8D5 /* Ch01_UIPopoverController_01_ViewController.xib in Resources */,
+				E1056B3A1882B75400A3F8D5 /* Ch01_UIAlertView_02_ViewController.xib in Resources */,
+				E10BE3B91883B3EA0033E75F /* PickerViewController.xib in Resources */,
+				E19C27A718A2DEDC00DB4509 /* Ch01_UITableView_04_Storyboard.storyboard in Resources */,
+				E1969D241809FEDF00F9E882 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1960F861807439400EBAF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1960F941807439400EBAF61 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1960F691807439400EBAF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A302BF18B1538F00D1270D /* Ch01_UISegmentedControl_03_ViewController.m in Sources */,
+				E10BE3B31883AED60033E75F /* Ch01_UIPickerView_01_ViewController.m in Sources */,
+				E155202018955C3E002D8078 /* Ch01_UIImageView_02_ViewController.m in Sources */,
+				E1056B3F1882D90400A3F8D5 /* Ch01_UIPopoverController_01_ViewController.m in Sources */,
+				E155200B18954886002D8078 /* Ch01_UIDatePicker_01_ViewController.m in Sources */,
+				E1143CE018791A1300C48BD6 /* Ch01_UITextField_02_ViewController.m in Sources */,
+				E1056B391882B75400A3F8D5 /* Ch01_UIAlertView_02_ViewController.m in Sources */,
+				E15520101895515F002D8078 /* Ch01_UIDatePicker_02_ViewController.m in Sources */,
+				E19C27A218A2DD7200DB4509 /* Ch01_UITableView_04_TableViewController.m in Sources */,
+				E1551FF41894BE04002D8078 /* Ch01_UISlider_02_ViewController.m in Sources */,
+				E1A302A618B1280900D1270D /* Ch01_UITableView_02_TableViewController.m in Sources */,
+				E1FFBEB918591625000AB3C3 /* Ch01_UISlider_01_ViewController.m in Sources */,
+				E1F1F9DF187187E100F387D3 /* MainTableViewController.m in Sources */,
+				E10BE3C91883E09D0033E75F /* Ch01_UIPickerView_02_ViewController.m in Sources */,
+				E1960F811807439400EBAF61 /* Ch01_AppDelegate.m in Sources */,
+				E1A302C418B153A700D1270D /* Ch01_UISegmentedControl_04_ViewController.m in Sources */,
+				E155201518955416002D8078 /* Ch01_UIDatePicker_03_ViewController.m in Sources */,
+				E1551FFF189506EB002D8078 /* Ch01_UITextField_05_ViewController.m in Sources */,
+				E155202A18955C61002D8078 /* Ch01_UIImageView_04_ViewController.m in Sources */,
+				E12DDC96181866DC00AA0F13 /* Ch01_UIProgressView_01_ViewController.m in Sources */,
+				E1F0745F1819DDD400EE1BEA /* Ch01_UIProgressView_02_ViewController.m in Sources */,
+				E10BE3AD18839EB10033E75F /* Content2ViewController.m in Sources */,
+				E10BE3A81883883E0033E75F /* Ch01_UIPopoverController_02_ViewController.m in Sources */,
+				E14117A4187CB50A0043F3DD /* Ch01_UIAlertView_01_ViewController.m in Sources */,
+				E1402E761878537C00DA00B3 /* Ch01_UIButton_01_ViewController.m in Sources */,
+				E19BBAFF180C9F820039CDF8 /* Ch01_UILabel_02_ViewController.m in Sources */,
+				E10BE3CE1883E0BA0033E75F /* PickerView2Controller.m in Sources */,
+				E1960FA81807458C00EBAF61 /* MainViewController.m in Sources */,
+				E1A302BA18B1538000D1270D /* Ch01_UISegmentedControl_02_ViewController.m in Sources */,
+				E1960F7D1807439400EBAF61 /* main.m in Sources */,
+				E1960FA31807454800EBAF61 /* Ch01_UILabel_01_ViewController.m in Sources */,
+				E101DBBE189865190089D237 /* Ch01_UITableView_01_TableViewController.m in Sources */,
+				E1A302AF18B145D100D1270D /* Ch01_UISwitch_01_ViewController.m in Sources */,
+				E155201B1895591E002D8078 /* Ch01_UIImageView_01_ViewController.m in Sources */,
+				E1402E7B1878539300DA00B3 /* Ch01_UIButton_02_ViewController.m in Sources */,
+				E1143CE5187931EC00C48BD6 /* Ch01_UITextField_03_ViewController.m in Sources */,
+				E1A302B518B14E1700D1270D /* Ch01_UISegmentedControl_01_ViewController.m in Sources */,
+				E1056B441882E5FA00A3F8D5 /* ContentViewController.m in Sources */,
+				E155200518952509002D8078 /* Ch01_UIActionSheet_01_ViewController.m in Sources */,
+				E141179E187CA92B0043F3DD /* Ch01_UITextView_01_ViewController.m in Sources */,
+				E1F358801816EA580036DCC6 /* Ch01_UILabel_03_ViewController.m in Sources */,
+				E10BE3B81883B3EA0033E75F /* PickerViewController.m in Sources */,
+				E100705D1878EFF0000551BC /* Ch01_UITextField_01_ViewController.m in Sources */,
+				E19C27AD18A2E9FA00DB4509 /* Ch01_UITableView_03_TableViewControlle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1960F841807439400EBAF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1960F961807439400EBAF61 /* iOSRecipeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1960F8E1807439400EBAF61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1960F6C1807439400EBAF61 /* iOSRecipe */;
+			targetProxy = E1960F8D1807439400EBAF61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1960F791807439400EBAF61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1960F7A1807439400EBAF61 /* en */,
+				E1F3589718170A2D0036DCC6 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1960F921807439400EBAF61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1960F931807439400EBAF61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1960F971807439400EBAF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1960F981807439400EBAF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1960F9A1807439400EBAF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSRecipe/iOSRecipe-Prefix.pch";
+				INFOPLIST_FILE = "iOSRecipe/iOSRecipe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1960F9B1807439400EBAF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSRecipe/iOSRecipe-Prefix.pch";
+				INFOPLIST_FILE = "iOSRecipe/iOSRecipe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E1960F9D1807439400EBAF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSRecipe.app/iOSRecipe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSRecipe/iOSRecipe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSRecipeTests/iOSRecipeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E1960F9E1807439400EBAF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSRecipe.app/iOSRecipe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSRecipe/iOSRecipe-Prefix.pch";
+				INFOPLIST_FILE = "iOSRecipeTests/iOSRecipeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1960F681807439400EBAF61 /* Build configuration list for PBXProject "iOSRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1960F971807439400EBAF61 /* Debug */,
+				E1960F981807439400EBAF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1960F991807439400EBAF61 /* Build configuration list for PBXNativeTarget "iOSRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1960F9A1807439400EBAF61 /* Debug */,
+				E1960F9B1807439400EBAF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1960F9C1807439400EBAF61 /* Build configuration list for PBXNativeTarget "iOSRecipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1960F9D1807439400EBAF61 /* Debug */,
+				E1960F9E1807439400EBAF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1960F651807439400EBAF61 /* Project object */;
+}
