@@ -225,6 +225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -398,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch11AVAudioSession/ch11AVAudioSession-Prefix.pch";
 				INFOPLIST_FILE = "ch11AVAudioSession/ch11AVAudioSession-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -411,6 +413,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch11AVAudioSession/ch11AVAudioSession-Prefix.pch";
 				INFOPLIST_FILE = "ch11AVAudioSession/ch11AVAudioSession-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -477,6 +480,7 @@
 				CA330B0A187114A900A2F0D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA330B0B187114A900A2F0D4 /* Build configuration list for PBXNativeTarget "ch11AVAudioSessionTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +489,7 @@
 				CA330B0D187114A900A2F0D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

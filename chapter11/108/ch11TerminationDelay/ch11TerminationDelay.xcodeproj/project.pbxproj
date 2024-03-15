@@ -209,6 +209,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -381,6 +382,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch11TerminationDelay/ch11TerminationDelay-Prefix.pch";
 				INFOPLIST_FILE = "ch11TerminationDelay/ch11TerminationDelay-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch11TerminationDelay/ch11TerminationDelay-Prefix.pch";
 				INFOPLIST_FILE = "ch11TerminationDelay/ch11TerminationDelay-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +463,7 @@
 				CAEDB3E6185D42AF000496FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAEDB3E7185D42AF000496FC /* Build configuration list for PBXNativeTarget "ch11TerminationDelayTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +472,7 @@
 				CAEDB3E9185D42AF000496FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
