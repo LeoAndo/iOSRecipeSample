@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAEDB3B6185D42AF000496FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEDB3B5185D42AF000496FC /* Foundation.framework */; };
+		CAEDB3B8185D42AF000496FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEDB3B7185D42AF000496FC /* CoreGraphics.framework */; };
+		CAEDB3BA185D42AF000496FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEDB3B9185D42AF000496FC /* UIKit.framework */; };
+		CAEDB3C0185D42AF000496FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAEDB3BE185D42AF000496FC /* InfoPlist.strings */; };
+		CAEDB3C2185D42AF000496FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEDB3C1185D42AF000496FC /* main.m */; };
+		CAEDB3C6185D42AF000496FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEDB3C5185D42AF000496FC /* AppDelegate.m */; };
+		CAEDB3C9185D42AF000496FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEDB3C7185D42AF000496FC /* Main.storyboard */; };
+		CAEDB3CC185D42AF000496FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEDB3CB185D42AF000496FC /* ViewController.m */; };
+		CAEDB3CE185D42AF000496FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEDB3CD185D42AF000496FC /* Images.xcassets */; };
+		CAEDB3D5185D42AF000496FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEDB3D4185D42AF000496FC /* XCTest.framework */; };
+		CAEDB3D6185D42AF000496FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEDB3B5185D42AF000496FC /* Foundation.framework */; };
+		CAEDB3D7185D42AF000496FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEDB3B9185D42AF000496FC /* UIKit.framework */; };
+		CAEDB3DF185D42AF000496FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAEDB3DD185D42AF000496FC /* InfoPlist.strings */; };
+		CAEDB3E1185D42AF000496FC /* ch11TerminationDelayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEDB3E0185D42AF000496FC /* ch11TerminationDelayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAEDB3D8185D42AF000496FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEDB3AA185D42AF000496FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEDB3B1185D42AF000496FC;
+			remoteInfo = ch11TerminationDelay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAEDB3B2185D42AF000496FC /* ch11TerminationDelay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ch11TerminationDelay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEDB3B5185D42AF000496FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAEDB3B7185D42AF000496FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAEDB3B9185D42AF000496FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAEDB3BD185D42AF000496FC /* ch11TerminationDelay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ch11TerminationDelay-Info.plist"; sourceTree = "<group>"; };
+		CAEDB3BF185D42AF000496FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAEDB3C1185D42AF000496FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAEDB3C3185D42AF000496FC /* ch11TerminationDelay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ch11TerminationDelay-Prefix.pch"; sourceTree = "<group>"; };
+		CAEDB3C4185D42AF000496FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAEDB3C5185D42AF000496FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAEDB3C8185D42AF000496FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAEDB3CA185D42AF000496FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAEDB3CB185D42AF000496FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAEDB3CD185D42AF000496FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAEDB3D3185D42AF000496FC /* ch11TerminationDelayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ch11TerminationDelayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEDB3D4185D42AF000496FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CAEDB3DC185D42AF000496FC /* ch11TerminationDelayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ch11TerminationDelayTests-Info.plist"; sourceTree = "<group>"; };
+		CAEDB3DE185D42AF000496FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAEDB3E0185D42AF000496FC /* ch11TerminationDelayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ch11TerminationDelayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAEDB3AF185D42AF000496FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEDB3B8185D42AF000496FC /* CoreGraphics.framework in Frameworks */,
+				CAEDB3BA185D42AF000496FC /* UIKit.framework in Frameworks */,
+				CAEDB3B6185D42AF000496FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEDB3D0185D42AF000496FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEDB3D5185D42AF000496FC /* XCTest.framework in Frameworks */,
+				CAEDB3D7185D42AF000496FC /* UIKit.framework in Frameworks */,
+				CAEDB3D6185D42AF000496FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAEDB3A9185D42AF000496FC = {
+			isa = PBXGroup;
+			children = (
+				CAEDB3BB185D42AF000496FC /* ch11TerminationDelay */,
+				CAEDB3DA185D42AF000496FC /* ch11TerminationDelayTests */,
+				CAEDB3B4185D42AF000496FC /* Frameworks */,
+				CAEDB3B3185D42AF000496FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAEDB3B3185D42AF000496FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDB3B2185D42AF000496FC /* ch11TerminationDelay.app */,
+				CAEDB3D3185D42AF000496FC /* ch11TerminationDelayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAEDB3B4185D42AF000496FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDB3B5185D42AF000496FC /* Foundation.framework */,
+				CAEDB3B7185D42AF000496FC /* CoreGraphics.framework */,
+				CAEDB3B9185D42AF000496FC /* UIKit.framework */,
+				CAEDB3D4185D42AF000496FC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAEDB3BB185D42AF000496FC /* ch11TerminationDelay */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDB3C4185D42AF000496FC /* AppDelegate.h */,
+				CAEDB3C5185D42AF000496FC /* AppDelegate.m */,
+				CAEDB3C7185D42AF000496FC /* Main.storyboard */,
+				CAEDB3CA185D42AF000496FC /* ViewController.h */,
+				CAEDB3CB185D42AF000496FC /* ViewController.m */,
+				CAEDB3CD185D42AF000496FC /* Images.xcassets */,
+				CAEDB3BC185D42AF000496FC /* Supporting Files */,
+			);
+			path = ch11TerminationDelay;
+			sourceTree = "<group>";
+		};
+		CAEDB3BC185D42AF000496FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDB3BD185D42AF000496FC /* ch11TerminationDelay-Info.plist */,
+				CAEDB3BE185D42AF000496FC /* InfoPlist.strings */,
+				CAEDB3C1185D42AF000496FC /* main.m */,
+				CAEDB3C3185D42AF000496FC /* ch11TerminationDelay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAEDB3DA185D42AF000496FC /* ch11TerminationDelayTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDB3E0185D42AF000496FC /* ch11TerminationDelayTests.m */,
+				CAEDB3DB185D42AF000496FC /* Supporting Files */,
+			);
+			path = ch11TerminationDelayTests;
+			sourceTree = "<group>";
+		};
+		CAEDB3DB185D42AF000496FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDB3DC185D42AF000496FC /* ch11TerminationDelayTests-Info.plist */,
+				CAEDB3DD185D42AF000496FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAEDB3B1185D42AF000496FC /* ch11TerminationDelay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEDB3E4185D42AF000496FC /* Build configuration list for PBXNativeTarget "ch11TerminationDelay" */;
+			buildPhases = (
+				CAEDB3AE185D42AF000496FC /* Sources */,
+				CAEDB3AF185D42AF000496FC /* Frameworks */,
+				CAEDB3B0185D42AF000496FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ch11TerminationDelay;
+			productName = ch11TerminationDelay;
+			productReference = CAEDB3B2185D42AF000496FC /* ch11TerminationDelay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAEDB3D2185D42AF000496FC /* ch11TerminationDelayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEDB3E7185D42AF000496FC /* Build configuration list for PBXNativeTarget "ch11TerminationDelayTests" */;
+			buildPhases = (
+				CAEDB3CF185D42AF000496FC /* Sources */,
+				CAEDB3D0185D42AF000496FC /* Frameworks */,
+				CAEDB3D1185D42AF000496FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEDB3D9185D42AF000496FC /* PBXTargetDependency */,
+			);
+			name = ch11TerminationDelayTests;
+			productName = ch11TerminationDelayTests;
+			productReference = CAEDB3D3185D42AF000496FC /* ch11TerminationDelayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAEDB3AA185D42AF000496FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = shoeisha;
+				TargetAttributes = {
+					CAEDB3D2185D42AF000496FC = {
+						TestTargetID = CAEDB3B1185D42AF000496FC;
+					};
+				};
+			};
+			buildConfigurationList = CAEDB3AD185D42AF000496FC /* Build configuration list for PBXProject "ch11TerminationDelay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAEDB3A9185D42AF000496FC;
+			productRefGroup = CAEDB3B3185D42AF000496FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAEDB3B1185D42AF000496FC /* ch11TerminationDelay */,
+				CAEDB3D2185D42AF000496FC /* ch11TerminationDelayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAEDB3B0185D42AF000496FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEDB3CE185D42AF000496FC /* Images.xcassets in Resources */,
+				CAEDB3C0185D42AF000496FC /* InfoPlist.strings in Resources */,
+				CAEDB3C9185D42AF000496FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEDB3D1185D42AF000496FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEDB3DF185D42AF000496FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAEDB3AE185D42AF000496FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEDB3CC185D42AF000496FC /* ViewController.m in Sources */,
+				CAEDB3C6185D42AF000496FC /* AppDelegate.m in Sources */,
+				CAEDB3C2185D42AF000496FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEDB3CF185D42AF000496FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEDB3E1185D42AF000496FC /* ch11TerminationDelayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAEDB3D9185D42AF000496FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEDB3B1185D42AF000496FC /* ch11TerminationDelay */;
+			targetProxy = CAEDB3D8185D42AF000496FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAEDB3BE185D42AF000496FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEDB3BF185D42AF000496FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAEDB3C7185D42AF000496FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEDB3C8185D42AF000496FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAEDB3DD185D42AF000496FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEDB3DE185D42AF000496FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAEDB3E2185D42AF000496FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAEDB3E3185D42AF000496FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAEDB3E5185D42AF000496FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch11TerminationDelay/ch11TerminationDelay-Prefix.pch";
+				INFOPLIST_FILE = "ch11TerminationDelay/ch11TerminationDelay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAEDB3E6185D42AF000496FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch11TerminationDelay/ch11TerminationDelay-Prefix.pch";
+				INFOPLIST_FILE = "ch11TerminationDelay/ch11TerminationDelay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CAEDB3E8185D42AF000496FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ch11TerminationDelay.app/ch11TerminationDelay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch11TerminationDelay/ch11TerminationDelay-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ch11TerminationDelayTests/ch11TerminationDelayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CAEDB3E9185D42AF000496FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ch11TerminationDelay.app/ch11TerminationDelay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch11TerminationDelay/ch11TerminationDelay-Prefix.pch";
+				INFOPLIST_FILE = "ch11TerminationDelayTests/ch11TerminationDelayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAEDB3AD185D42AF000496FC /* Build configuration list for PBXProject "ch11TerminationDelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEDB3E2185D42AF000496FC /* Debug */,
+				CAEDB3E3185D42AF000496FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEDB3E4185D42AF000496FC /* Build configuration list for PBXNativeTarget "ch11TerminationDelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEDB3E5185D42AF000496FC /* Debug */,
+				CAEDB3E6185D42AF000496FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAEDB3E7185D42AF000496FC /* Build configuration list for PBXNativeTarget "ch11TerminationDelayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEDB3E8185D42AF000496FC /* Debug */,
+				CAEDB3E9185D42AF000496FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAEDB3AA185D42AF000496FC /* Project object */;
+}

@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA267C5118200AE000EA0227 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA267C5018200AE000EA0227 /* Foundation.framework */; };
+		CA267C5318200AE000EA0227 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA267C5218200AE000EA0227 /* CoreGraphics.framework */; };
+		CA267C5518200AE000EA0227 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA267C5418200AE000EA0227 /* UIKit.framework */; };
+		CA267C5B18200AE000EA0227 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA267C5918200AE000EA0227 /* InfoPlist.strings */; };
+		CA267C5D18200AE000EA0227 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA267C5C18200AE000EA0227 /* main.m */; };
+		CA267C6118200AE000EA0227 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA267C6018200AE000EA0227 /* AppDelegate.m */; };
+		CA267C6418200AE000EA0227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA267C6218200AE000EA0227 /* Main.storyboard */; };
+		CA267C6718200AE000EA0227 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA267C6618200AE000EA0227 /* ViewController.m */; };
+		CA267C6918200AE000EA0227 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA267C6818200AE000EA0227 /* Images.xcassets */; };
+		CA267C7018200AE000EA0227 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA267C6F18200AE000EA0227 /* XCTest.framework */; };
+		CA267C7118200AE000EA0227 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA267C5018200AE000EA0227 /* Foundation.framework */; };
+		CA267C7218200AE000EA0227 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA267C5418200AE000EA0227 /* UIKit.framework */; };
+		CA267C7A18200AE000EA0227 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA267C7818200AE000EA0227 /* InfoPlist.strings */; };
+		CA267C7C18200AE000EA0227 /* ch6PlayYoutubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA267C7B18200AE000EA0227 /* ch6PlayYoutubeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA267C7318200AE000EA0227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA267C4518200AE000EA0227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA267C4C18200AE000EA0227;
+			remoteInfo = ch6PlayYoutube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA267C4D18200AE000EA0227 /* ch6PlayYoutube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ch6PlayYoutube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA267C5018200AE000EA0227 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA267C5218200AE000EA0227 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA267C5418200AE000EA0227 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA267C5818200AE000EA0227 /* ch6PlayYoutube-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ch6PlayYoutube-Info.plist"; sourceTree = "<group>"; };
+		CA267C5A18200AE000EA0227 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA267C5C18200AE000EA0227 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA267C5E18200AE000EA0227 /* ch6PlayYoutube-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ch6PlayYoutube-Prefix.pch"; sourceTree = "<group>"; };
+		CA267C5F18200AE000EA0227 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA267C6018200AE000EA0227 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA267C6318200AE000EA0227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA267C6518200AE000EA0227 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA267C6618200AE000EA0227 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA267C6818200AE000EA0227 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA267C6E18200AE000EA0227 /* ch6PlayYoutubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ch6PlayYoutubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA267C6F18200AE000EA0227 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CA267C7718200AE000EA0227 /* ch6PlayYoutubeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ch6PlayYoutubeTests-Info.plist"; sourceTree = "<group>"; };
+		CA267C7918200AE000EA0227 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA267C7B18200AE000EA0227 /* ch6PlayYoutubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ch6PlayYoutubeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA267C4A18200AE000EA0227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA267C5318200AE000EA0227 /* CoreGraphics.framework in Frameworks */,
+				CA267C5518200AE000EA0227 /* UIKit.framework in Frameworks */,
+				CA267C5118200AE000EA0227 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA267C6B18200AE000EA0227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA267C7018200AE000EA0227 /* XCTest.framework in Frameworks */,
+				CA267C7218200AE000EA0227 /* UIKit.framework in Frameworks */,
+				CA267C7118200AE000EA0227 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA267C4418200AE000EA0227 = {
+			isa = PBXGroup;
+			children = (
+				CA267C5618200AE000EA0227 /* ch6PlayYoutube */,
+				CA267C7518200AE000EA0227 /* ch6PlayYoutubeTests */,
+				CA267C4F18200AE000EA0227 /* Frameworks */,
+				CA267C4E18200AE000EA0227 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA267C4E18200AE000EA0227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA267C4D18200AE000EA0227 /* ch6PlayYoutube.app */,
+				CA267C6E18200AE000EA0227 /* ch6PlayYoutubeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA267C4F18200AE000EA0227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA267C5018200AE000EA0227 /* Foundation.framework */,
+				CA267C5218200AE000EA0227 /* CoreGraphics.framework */,
+				CA267C5418200AE000EA0227 /* UIKit.framework */,
+				CA267C6F18200AE000EA0227 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA267C5618200AE000EA0227 /* ch6PlayYoutube */ = {
+			isa = PBXGroup;
+			children = (
+				CA267C5F18200AE000EA0227 /* AppDelegate.h */,
+				CA267C6018200AE000EA0227 /* AppDelegate.m */,
+				CA267C6218200AE000EA0227 /* Main.storyboard */,
+				CA267C6518200AE000EA0227 /* ViewController.h */,
+				CA267C6618200AE000EA0227 /* ViewController.m */,
+				CA267C6818200AE000EA0227 /* Images.xcassets */,
+				CA267C5718200AE000EA0227 /* Supporting Files */,
+			);
+			path = ch6PlayYoutube;
+			sourceTree = "<group>";
+		};
+		CA267C5718200AE000EA0227 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA267C5818200AE000EA0227 /* ch6PlayYoutube-Info.plist */,
+				CA267C5918200AE000EA0227 /* InfoPlist.strings */,
+				CA267C5C18200AE000EA0227 /* main.m */,
+				CA267C5E18200AE000EA0227 /* ch6PlayYoutube-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA267C7518200AE000EA0227 /* ch6PlayYoutubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA267C7B18200AE000EA0227 /* ch6PlayYoutubeTests.m */,
+				CA267C7618200AE000EA0227 /* Supporting Files */,
+			);
+			path = ch6PlayYoutubeTests;
+			sourceTree = "<group>";
+		};
+		CA267C7618200AE000EA0227 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA267C7718200AE000EA0227 /* ch6PlayYoutubeTests-Info.plist */,
+				CA267C7818200AE000EA0227 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA267C4C18200AE000EA0227 /* ch6PlayYoutube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA267C7F18200AE000EA0227 /* Build configuration list for PBXNativeTarget "ch6PlayYoutube" */;
+			buildPhases = (
+				CA267C4918200AE000EA0227 /* Sources */,
+				CA267C4A18200AE000EA0227 /* Frameworks */,
+				CA267C4B18200AE000EA0227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ch6PlayYoutube;
+			productName = ch6PlayYoutube;
+			productReference = CA267C4D18200AE000EA0227 /* ch6PlayYoutube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA267C6D18200AE000EA0227 /* ch6PlayYoutubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA267C8218200AE000EA0227 /* Build configuration list for PBXNativeTarget "ch6PlayYoutubeTests" */;
+			buildPhases = (
+				CA267C6A18200AE000EA0227 /* Sources */,
+				CA267C6B18200AE000EA0227 /* Frameworks */,
+				CA267C6C18200AE000EA0227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA267C7418200AE000EA0227 /* PBXTargetDependency */,
+			);
+			name = ch6PlayYoutubeTests;
+			productName = ch6PlayYoutubeTests;
+			productReference = CA267C6E18200AE000EA0227 /* ch6PlayYoutubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA267C4518200AE000EA0227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = shoeisha;
+				TargetAttributes = {
+					CA267C6D18200AE000EA0227 = {
+						TestTargetID = CA267C4C18200AE000EA0227;
+					};
+				};
+			};
+			buildConfigurationList = CA267C4818200AE000EA0227 /* Build configuration list for PBXProject "ch6PlayYoutube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA267C4418200AE000EA0227;
+			productRefGroup = CA267C4E18200AE000EA0227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA267C4C18200AE000EA0227 /* ch6PlayYoutube */,
+				CA267C6D18200AE000EA0227 /* ch6PlayYoutubeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA267C4B18200AE000EA0227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA267C6918200AE000EA0227 /* Images.xcassets in Resources */,
+				CA267C5B18200AE000EA0227 /* InfoPlist.strings in Resources */,
+				CA267C6418200AE000EA0227 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA267C6C18200AE000EA0227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA267C7A18200AE000EA0227 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA267C4918200AE000EA0227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA267C6718200AE000EA0227 /* ViewController.m in Sources */,
+				CA267C6118200AE000EA0227 /* AppDelegate.m in Sources */,
+				CA267C5D18200AE000EA0227 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA267C6A18200AE000EA0227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA267C7C18200AE000EA0227 /* ch6PlayYoutubeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA267C7418200AE000EA0227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA267C4C18200AE000EA0227 /* ch6PlayYoutube */;
+			targetProxy = CA267C7318200AE000EA0227 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA267C5918200AE000EA0227 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA267C5A18200AE000EA0227 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA267C6218200AE000EA0227 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA267C6318200AE000EA0227 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA267C7818200AE000EA0227 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA267C7918200AE000EA0227 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA267C7D18200AE000EA0227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA267C7E18200AE000EA0227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA267C8018200AE000EA0227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch6PlayYoutube/ch6PlayYoutube-Prefix.pch";
+				INFOPLIST_FILE = "ch6PlayYoutube/ch6PlayYoutube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA267C8118200AE000EA0227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch6PlayYoutube/ch6PlayYoutube-Prefix.pch";
+				INFOPLIST_FILE = "ch6PlayYoutube/ch6PlayYoutube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CA267C8318200AE000EA0227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ch6PlayYoutube.app/ch6PlayYoutube";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch6PlayYoutube/ch6PlayYoutube-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ch6PlayYoutubeTests/ch6PlayYoutubeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CA267C8418200AE000EA0227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ch6PlayYoutube.app/ch6PlayYoutube";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch6PlayYoutube/ch6PlayYoutube-Prefix.pch";
+				INFOPLIST_FILE = "ch6PlayYoutubeTests/ch6PlayYoutubeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA267C4818200AE000EA0227 /* Build configuration list for PBXProject "ch6PlayYoutube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA267C7D18200AE000EA0227 /* Debug */,
+				CA267C7E18200AE000EA0227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA267C7F18200AE000EA0227 /* Build configuration list for PBXNativeTarget "ch6PlayYoutube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA267C8018200AE000EA0227 /* Debug */,
+				CA267C8118200AE000EA0227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA267C8218200AE000EA0227 /* Build configuration list for PBXNativeTarget "ch6PlayYoutubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA267C8318200AE000EA0227 /* Debug */,
+				CA267C8418200AE000EA0227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA267C4518200AE000EA0227 /* Project object */;
+}

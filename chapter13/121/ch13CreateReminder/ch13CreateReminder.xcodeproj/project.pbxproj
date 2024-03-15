@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDEAD034183FA66600B40255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEAD033183FA66600B40255 /* Foundation.framework */; };
+		DDEAD036183FA66600B40255 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEAD035183FA66600B40255 /* CoreGraphics.framework */; };
+		DDEAD038183FA66600B40255 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEAD037183FA66600B40255 /* UIKit.framework */; };
+		DDEAD03E183FA66600B40255 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDEAD03C183FA66600B40255 /* InfoPlist.strings */; };
+		DDEAD040183FA66600B40255 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEAD03F183FA66600B40255 /* main.m */; };
+		DDEAD044183FA66600B40255 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEAD043183FA66600B40255 /* AppDelegate.m */; };
+		DDEAD047183FA66600B40255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEAD045183FA66600B40255 /* Main.storyboard */; };
+		DDEAD04A183FA66600B40255 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEAD049183FA66600B40255 /* ViewController.m */; };
+		DDEAD04C183FA66600B40255 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEAD04B183FA66600B40255 /* Images.xcassets */; };
+		DDEAD053183FA66600B40255 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEAD052183FA66600B40255 /* XCTest.framework */; };
+		DDEAD054183FA66600B40255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEAD033183FA66600B40255 /* Foundation.framework */; };
+		DDEAD055183FA66600B40255 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEAD037183FA66600B40255 /* UIKit.framework */; };
+		DDEAD05D183FA66600B40255 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDEAD05B183FA66600B40255 /* InfoPlist.strings */; };
+		DDEAD05F183FA66600B40255 /* ch13CreateReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEAD05E183FA66600B40255 /* ch13CreateReminderTests.m */; };
+		DDEAD069183FA76800B40255 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEAD068183FA76800B40255 /* EventKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDEAD056183FA66600B40255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEAD028183FA66600B40255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDEAD02F183FA66600B40255;
+			remoteInfo = ch13CreateReminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDEAD030183FA66600B40255 /* ch13CreateReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ch13CreateReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEAD033183FA66600B40255 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDEAD035183FA66600B40255 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDEAD037183FA66600B40255 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDEAD03B183FA66600B40255 /* ch13CreateReminder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ch13CreateReminder-Info.plist"; sourceTree = "<group>"; };
+		DDEAD03D183FA66600B40255 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDEAD03F183FA66600B40255 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDEAD041183FA66600B40255 /* ch13CreateReminder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ch13CreateReminder-Prefix.pch"; sourceTree = "<group>"; };
+		DDEAD042183FA66600B40255 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDEAD043183FA66600B40255 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDEAD046183FA66600B40255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDEAD048183FA66600B40255 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDEAD049183FA66600B40255 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDEAD04B183FA66600B40255 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDEAD051183FA66600B40255 /* ch13CreateReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ch13CreateReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEAD052183FA66600B40255 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DDEAD05A183FA66600B40255 /* ch13CreateReminderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ch13CreateReminderTests-Info.plist"; sourceTree = "<group>"; };
+		DDEAD05C183FA66600B40255 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDEAD05E183FA66600B40255 /* ch13CreateReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ch13CreateReminderTests.m; sourceTree = "<group>"; };
+		DDEAD068183FA76800B40255 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDEAD02D183FA66600B40255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEAD069183FA76800B40255 /* EventKit.framework in Frameworks */,
+				DDEAD036183FA66600B40255 /* CoreGraphics.framework in Frameworks */,
+				DDEAD038183FA66600B40255 /* UIKit.framework in Frameworks */,
+				DDEAD034183FA66600B40255 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEAD04E183FA66600B40255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEAD053183FA66600B40255 /* XCTest.framework in Frameworks */,
+				DDEAD055183FA66600B40255 /* UIKit.framework in Frameworks */,
+				DDEAD054183FA66600B40255 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDEAD027183FA66600B40255 = {
+			isa = PBXGroup;
+			children = (
+				DDEAD039183FA66600B40255 /* ch13CreateReminder */,
+				DDEAD058183FA66600B40255 /* ch13CreateReminderTests */,
+				DDEAD032183FA66600B40255 /* Frameworks */,
+				DDEAD031183FA66600B40255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDEAD031183FA66600B40255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDEAD030183FA66600B40255 /* ch13CreateReminder.app */,
+				DDEAD051183FA66600B40255 /* ch13CreateReminderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDEAD032183FA66600B40255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDEAD068183FA76800B40255 /* EventKit.framework */,
+				DDEAD033183FA66600B40255 /* Foundation.framework */,
+				DDEAD035183FA66600B40255 /* CoreGraphics.framework */,
+				DDEAD037183FA66600B40255 /* UIKit.framework */,
+				DDEAD052183FA66600B40255 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDEAD039183FA66600B40255 /* ch13CreateReminder */ = {
+			isa = PBXGroup;
+			children = (
+				DDEAD042183FA66600B40255 /* AppDelegate.h */,
+				DDEAD043183FA66600B40255 /* AppDelegate.m */,
+				DDEAD045183FA66600B40255 /* Main.storyboard */,
+				DDEAD048183FA66600B40255 /* ViewController.h */,
+				DDEAD049183FA66600B40255 /* ViewController.m */,
+				DDEAD04B183FA66600B40255 /* Images.xcassets */,
+				DDEAD03A183FA66600B40255 /* Supporting Files */,
+			);
+			path = ch13CreateReminder;
+			sourceTree = "<group>";
+		};
+		DDEAD03A183FA66600B40255 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDEAD03B183FA66600B40255 /* ch13CreateReminder-Info.plist */,
+				DDEAD03C183FA66600B40255 /* InfoPlist.strings */,
+				DDEAD03F183FA66600B40255 /* main.m */,
+				DDEAD041183FA66600B40255 /* ch13CreateReminder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDEAD058183FA66600B40255 /* ch13CreateReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDEAD05E183FA66600B40255 /* ch13CreateReminderTests.m */,
+				DDEAD059183FA66600B40255 /* Supporting Files */,
+			);
+			path = ch13CreateReminderTests;
+			sourceTree = "<group>";
+		};
+		DDEAD059183FA66600B40255 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDEAD05A183FA66600B40255 /* ch13CreateReminderTests-Info.plist */,
+				DDEAD05B183FA66600B40255 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDEAD02F183FA66600B40255 /* ch13CreateReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEAD062183FA66600B40255 /* Build configuration list for PBXNativeTarget "ch13CreateReminder" */;
+			buildPhases = (
+				DDEAD02C183FA66600B40255 /* Sources */,
+				DDEAD02D183FA66600B40255 /* Frameworks */,
+				DDEAD02E183FA66600B40255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ch13CreateReminder;
+			productName = ch13CreateReminder;
+			productReference = DDEAD030183FA66600B40255 /* ch13CreateReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDEAD050183FA66600B40255 /* ch13CreateReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEAD065183FA66600B40255 /* Build configuration list for PBXNativeTarget "ch13CreateReminderTests" */;
+			buildPhases = (
+				DDEAD04D183FA66600B40255 /* Sources */,
+				DDEAD04E183FA66600B40255 /* Frameworks */,
+				DDEAD04F183FA66600B40255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDEAD057183FA66600B40255 /* PBXTargetDependency */,
+			);
+			name = ch13CreateReminderTests;
+			productName = ch13CreateReminderTests;
+			productReference = DDEAD051183FA66600B40255 /* ch13CreateReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDEAD028183FA66600B40255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = shoeisya;
+				TargetAttributes = {
+					DDEAD050183FA66600B40255 = {
+						TestTargetID = DDEAD02F183FA66600B40255;
+					};
+				};
+			};
+			buildConfigurationList = DDEAD02B183FA66600B40255 /* Build configuration list for PBXProject "ch13CreateReminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDEAD027183FA66600B40255;
+			productRefGroup = DDEAD031183FA66600B40255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDEAD02F183FA66600B40255 /* ch13CreateReminder */,
+				DDEAD050183FA66600B40255 /* ch13CreateReminderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDEAD02E183FA66600B40255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEAD04C183FA66600B40255 /* Images.xcassets in Resources */,
+				DDEAD03E183FA66600B40255 /* InfoPlist.strings in Resources */,
+				DDEAD047183FA66600B40255 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEAD04F183FA66600B40255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEAD05D183FA66600B40255 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDEAD02C183FA66600B40255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEAD04A183FA66600B40255 /* ViewController.m in Sources */,
+				DDEAD044183FA66600B40255 /* AppDelegate.m in Sources */,
+				DDEAD040183FA66600B40255 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEAD04D183FA66600B40255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEAD05F183FA66600B40255 /* ch13CreateReminderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDEAD057183FA66600B40255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDEAD02F183FA66600B40255 /* ch13CreateReminder */;
+			targetProxy = DDEAD056183FA66600B40255 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDEAD03C183FA66600B40255 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDEAD03D183FA66600B40255 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDEAD045183FA66600B40255 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDEAD046183FA66600B40255 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDEAD05B183FA66600B40255 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDEAD05C183FA66600B40255 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDEAD060183FA66600B40255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDEAD061183FA66600B40255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDEAD063183FA66600B40255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13CreateReminder/ch13CreateReminder-Prefix.pch";
+				INFOPLIST_FILE = "ch13CreateReminder/ch13CreateReminder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDEAD064183FA66600B40255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13CreateReminder/ch13CreateReminder-Prefix.pch";
+				INFOPLIST_FILE = "ch13CreateReminder/ch13CreateReminder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DDEAD066183FA66600B40255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ch13CreateReminder.app/ch13CreateReminder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13CreateReminder/ch13CreateReminder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ch13CreateReminderTests/ch13CreateReminderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DDEAD067183FA66600B40255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ch13CreateReminder.app/ch13CreateReminder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13CreateReminder/ch13CreateReminder-Prefix.pch";
+				INFOPLIST_FILE = "ch13CreateReminderTests/ch13CreateReminderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDEAD02B183FA66600B40255 /* Build configuration list for PBXProject "ch13CreateReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEAD060183FA66600B40255 /* Debug */,
+				DDEAD061183FA66600B40255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDEAD062183FA66600B40255 /* Build configuration list for PBXNativeTarget "ch13CreateReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEAD063183FA66600B40255 /* Debug */,
+				DDEAD064183FA66600B40255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDEAD065183FA66600B40255 /* Build configuration list for PBXNativeTarget "ch13CreateReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEAD066183FA66600B40255 /* Debug */,
+				DDEAD067183FA66600B40255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDEAD028183FA66600B40255 /* Project object */;
+}

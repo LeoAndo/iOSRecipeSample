@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDC509701843AF1B005CA654 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC5096F1843AF1B005CA654 /* Foundation.framework */; };
+		DDC509721843AF1B005CA654 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC509711843AF1B005CA654 /* CoreGraphics.framework */; };
+		DDC509741843AF1B005CA654 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC509731843AF1B005CA654 /* UIKit.framework */; };
+		DDC5097A1843AF1B005CA654 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDC509781843AF1B005CA654 /* InfoPlist.strings */; };
+		DDC5097C1843AF1B005CA654 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC5097B1843AF1B005CA654 /* main.m */; };
+		DDC509801843AF1B005CA654 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC5097F1843AF1B005CA654 /* AppDelegate.m */; };
+		DDC509831843AF1B005CA654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC509811843AF1B005CA654 /* Main.storyboard */; };
+		DDC509861843AF1B005CA654 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC509851843AF1B005CA654 /* ViewController.m */; };
+		DDC509881843AF1B005CA654 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC509871843AF1B005CA654 /* Images.xcassets */; };
+		DDC5098F1843AF1B005CA654 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC5098E1843AF1B005CA654 /* XCTest.framework */; };
+		DDC509901843AF1B005CA654 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC5096F1843AF1B005CA654 /* Foundation.framework */; };
+		DDC509911843AF1B005CA654 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC509731843AF1B005CA654 /* UIKit.framework */; };
+		DDC509991843AF1B005CA654 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDC509971843AF1B005CA654 /* InfoPlist.strings */; };
+		DDC5099B1843AF1B005CA654 /* ch13PhotoPrivacyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC5099A1843AF1B005CA654 /* ch13PhotoPrivacyTests.m */; };
+		DDC509A51843B345005CA654 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC509A41843B345005CA654 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDC509921843AF1B005CA654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC509641843AF1B005CA654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC5096B1843AF1B005CA654;
+			remoteInfo = ch13PhotoPrivacy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDC5096C1843AF1B005CA654 /* ch13PhotoPrivacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ch13PhotoPrivacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC5096F1843AF1B005CA654 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDC509711843AF1B005CA654 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDC509731843AF1B005CA654 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDC509771843AF1B005CA654 /* ch13PhotoPrivacy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ch13PhotoPrivacy-Info.plist"; sourceTree = "<group>"; };
+		DDC509791843AF1B005CA654 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDC5097B1843AF1B005CA654 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDC5097D1843AF1B005CA654 /* ch13PhotoPrivacy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ch13PhotoPrivacy-Prefix.pch"; sourceTree = "<group>"; };
+		DDC5097E1843AF1B005CA654 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDC5097F1843AF1B005CA654 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDC509821843AF1B005CA654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDC509841843AF1B005CA654 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDC509851843AF1B005CA654 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDC509871843AF1B005CA654 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDC5098D1843AF1B005CA654 /* ch13PhotoPrivacyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ch13PhotoPrivacyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC5098E1843AF1B005CA654 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DDC509961843AF1B005CA654 /* ch13PhotoPrivacyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ch13PhotoPrivacyTests-Info.plist"; sourceTree = "<group>"; };
+		DDC509981843AF1B005CA654 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDC5099A1843AF1B005CA654 /* ch13PhotoPrivacyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ch13PhotoPrivacyTests.m; sourceTree = "<group>"; };
+		DDC509A41843B345005CA654 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC509691843AF1B005CA654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC509A51843B345005CA654 /* AssetsLibrary.framework in Frameworks */,
+				DDC509721843AF1B005CA654 /* CoreGraphics.framework in Frameworks */,
+				DDC509741843AF1B005CA654 /* UIKit.framework in Frameworks */,
+				DDC509701843AF1B005CA654 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC5098A1843AF1B005CA654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC5098F1843AF1B005CA654 /* XCTest.framework in Frameworks */,
+				DDC509911843AF1B005CA654 /* UIKit.framework in Frameworks */,
+				DDC509901843AF1B005CA654 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDC509631843AF1B005CA654 = {
+			isa = PBXGroup;
+			children = (
+				DDC509751843AF1B005CA654 /* ch13PhotoPrivacy */,
+				DDC509941843AF1B005CA654 /* ch13PhotoPrivacyTests */,
+				DDC5096E1843AF1B005CA654 /* Frameworks */,
+				DDC5096D1843AF1B005CA654 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC5096D1843AF1B005CA654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC5096C1843AF1B005CA654 /* ch13PhotoPrivacy.app */,
+				DDC5098D1843AF1B005CA654 /* ch13PhotoPrivacyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC5096E1843AF1B005CA654 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDC509A41843B345005CA654 /* AssetsLibrary.framework */,
+				DDC5096F1843AF1B005CA654 /* Foundation.framework */,
+				DDC509711843AF1B005CA654 /* CoreGraphics.framework */,
+				DDC509731843AF1B005CA654 /* UIKit.framework */,
+				DDC5098E1843AF1B005CA654 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDC509751843AF1B005CA654 /* ch13PhotoPrivacy */ = {
+			isa = PBXGroup;
+			children = (
+				DDC5097E1843AF1B005CA654 /* AppDelegate.h */,
+				DDC5097F1843AF1B005CA654 /* AppDelegate.m */,
+				DDC509811843AF1B005CA654 /* Main.storyboard */,
+				DDC509841843AF1B005CA654 /* ViewController.h */,
+				DDC509851843AF1B005CA654 /* ViewController.m */,
+				DDC509871843AF1B005CA654 /* Images.xcassets */,
+				DDC509761843AF1B005CA654 /* Supporting Files */,
+			);
+			path = ch13PhotoPrivacy;
+			sourceTree = "<group>";
+		};
+		DDC509761843AF1B005CA654 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDC509771843AF1B005CA654 /* ch13PhotoPrivacy-Info.plist */,
+				DDC509781843AF1B005CA654 /* InfoPlist.strings */,
+				DDC5097B1843AF1B005CA654 /* main.m */,
+				DDC5097D1843AF1B005CA654 /* ch13PhotoPrivacy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDC509941843AF1B005CA654 /* ch13PhotoPrivacyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC5099A1843AF1B005CA654 /* ch13PhotoPrivacyTests.m */,
+				DDC509951843AF1B005CA654 /* Supporting Files */,
+			);
+			path = ch13PhotoPrivacyTests;
+			sourceTree = "<group>";
+		};
+		DDC509951843AF1B005CA654 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDC509961843AF1B005CA654 /* ch13PhotoPrivacyTests-Info.plist */,
+				DDC509971843AF1B005CA654 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC5096B1843AF1B005CA654 /* ch13PhotoPrivacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC5099E1843AF1B005CA654 /* Build configuration list for PBXNativeTarget "ch13PhotoPrivacy" */;
+			buildPhases = (
+				DDC509681843AF1B005CA654 /* Sources */,
+				DDC509691843AF1B005CA654 /* Frameworks */,
+				DDC5096A1843AF1B005CA654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ch13PhotoPrivacy;
+			productName = ch13PhotoPrivacy;
+			productReference = DDC5096C1843AF1B005CA654 /* ch13PhotoPrivacy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDC5098C1843AF1B005CA654 /* ch13PhotoPrivacyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC509A11843AF1B005CA654 /* Build configuration list for PBXNativeTarget "ch13PhotoPrivacyTests" */;
+			buildPhases = (
+				DDC509891843AF1B005CA654 /* Sources */,
+				DDC5098A1843AF1B005CA654 /* Frameworks */,
+				DDC5098B1843AF1B005CA654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC509931843AF1B005CA654 /* PBXTargetDependency */,
+			);
+			name = ch13PhotoPrivacyTests;
+			productName = ch13PhotoPrivacyTests;
+			productReference = DDC5098D1843AF1B005CA654 /* ch13PhotoPrivacyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC509641843AF1B005CA654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = shoeisya;
+				TargetAttributes = {
+					DDC5098C1843AF1B005CA654 = {
+						TestTargetID = DDC5096B1843AF1B005CA654;
+					};
+				};
+			};
+			buildConfigurationList = DDC509671843AF1B005CA654 /* Build configuration list for PBXProject "ch13PhotoPrivacy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC509631843AF1B005CA654;
+			productRefGroup = DDC5096D1843AF1B005CA654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC5096B1843AF1B005CA654 /* ch13PhotoPrivacy */,
+				DDC5098C1843AF1B005CA654 /* ch13PhotoPrivacyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC5096A1843AF1B005CA654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC509881843AF1B005CA654 /* Images.xcassets in Resources */,
+				DDC5097A1843AF1B005CA654 /* InfoPlist.strings in Resources */,
+				DDC509831843AF1B005CA654 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC5098B1843AF1B005CA654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC509991843AF1B005CA654 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC509681843AF1B005CA654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC509861843AF1B005CA654 /* ViewController.m in Sources */,
+				DDC509801843AF1B005CA654 /* AppDelegate.m in Sources */,
+				DDC5097C1843AF1B005CA654 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC509891843AF1B005CA654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC5099B1843AF1B005CA654 /* ch13PhotoPrivacyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDC509931843AF1B005CA654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC5096B1843AF1B005CA654 /* ch13PhotoPrivacy */;
+			targetProxy = DDC509921843AF1B005CA654 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDC509781843AF1B005CA654 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC509791843AF1B005CA654 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDC509811843AF1B005CA654 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC509821843AF1B005CA654 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDC509971843AF1B005CA654 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC509981843AF1B005CA654 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDC5099C1843AF1B005CA654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDC5099D1843AF1B005CA654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC5099F1843AF1B005CA654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13PhotoPrivacy/ch13PhotoPrivacy-Prefix.pch";
+				INFOPLIST_FILE = "ch13PhotoPrivacy/ch13PhotoPrivacy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDC509A01843AF1B005CA654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13PhotoPrivacy/ch13PhotoPrivacy-Prefix.pch";
+				INFOPLIST_FILE = "ch13PhotoPrivacy/ch13PhotoPrivacy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DDC509A21843AF1B005CA654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ch13PhotoPrivacy.app/ch13PhotoPrivacy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13PhotoPrivacy/ch13PhotoPrivacy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ch13PhotoPrivacyTests/ch13PhotoPrivacyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DDC509A31843AF1B005CA654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ch13PhotoPrivacy.app/ch13PhotoPrivacy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13PhotoPrivacy/ch13PhotoPrivacy-Prefix.pch";
+				INFOPLIST_FILE = "ch13PhotoPrivacyTests/ch13PhotoPrivacyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC509671843AF1B005CA654 /* Build configuration list for PBXProject "ch13PhotoPrivacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC5099C1843AF1B005CA654 /* Debug */,
+				DDC5099D1843AF1B005CA654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC5099E1843AF1B005CA654 /* Build configuration list for PBXNativeTarget "ch13PhotoPrivacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC5099F1843AF1B005CA654 /* Debug */,
+				DDC509A01843AF1B005CA654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC509A11843AF1B005CA654 /* Build configuration list for PBXNativeTarget "ch13PhotoPrivacyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC509A21843AF1B005CA654 /* Debug */,
+				DDC509A31843AF1B005CA654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC509641843AF1B005CA654 /* Project object */;
+}

@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAA734521827432700715EBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA734511827432700715EBC /* Foundation.framework */; };
+		CAA734541827432700715EBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA734531827432700715EBC /* CoreGraphics.framework */; };
+		CAA734561827432700715EBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA734551827432700715EBC /* UIKit.framework */; };
+		CAA7345C1827432700715EBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAA7345A1827432700715EBC /* InfoPlist.strings */; };
+		CAA7345E1827432700715EBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA7345D1827432700715EBC /* main.m */; };
+		CAA734621827432700715EBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA734611827432700715EBC /* AppDelegate.m */; };
+		CAA734651827432700715EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA734631827432700715EBC /* Main.storyboard */; };
+		CAA734681827432700715EBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA734671827432700715EBC /* ViewController.m */; };
+		CAA7346A1827432700715EBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA734691827432700715EBC /* Images.xcassets */; };
+		CAA734711827432700715EBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA734701827432700715EBC /* XCTest.framework */; };
+		CAA734721827432700715EBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA734511827432700715EBC /* Foundation.framework */; };
+		CAA734731827432700715EBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA734551827432700715EBC /* UIKit.framework */; };
+		CAA7347B1827432700715EBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAA734791827432700715EBC /* InfoPlist.strings */; };
+		CAA7347D1827432700715EBC /* ch10MagnetomaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA7347C1827432700715EBC /* ch10MagnetomaterTests.m */; };
+		CAA734871827433700715EBC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA734861827433700715EBC /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAA734741827432700715EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAA734461827432700715EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA7344D1827432700715EBC;
+			remoteInfo = ch10Magnetomater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAA7344E1827432700715EBC /* ch10Magnetomater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ch10Magnetomater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA734511827432700715EBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAA734531827432700715EBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAA734551827432700715EBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAA734591827432700715EBC /* ch10Magnetomater-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ch10Magnetomater-Info.plist"; sourceTree = "<group>"; };
+		CAA7345B1827432700715EBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAA7345D1827432700715EBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAA7345F1827432700715EBC /* ch10Magnetomater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ch10Magnetomater-Prefix.pch"; sourceTree = "<group>"; };
+		CAA734601827432700715EBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAA734611827432700715EBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAA734641827432700715EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAA734661827432700715EBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAA734671827432700715EBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAA734691827432700715EBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAA7346F1827432700715EBC /* ch10MagnetomaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ch10MagnetomaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA734701827432700715EBC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CAA734781827432700715EBC /* ch10MagnetomaterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ch10MagnetomaterTests-Info.plist"; sourceTree = "<group>"; };
+		CAA7347A1827432700715EBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAA7347C1827432700715EBC /* ch10MagnetomaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ch10MagnetomaterTests.m; sourceTree = "<group>"; };
+		CAA734861827433700715EBC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAA7344B1827432700715EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA734871827433700715EBC /* CoreMotion.framework in Frameworks */,
+				CAA734541827432700715EBC /* CoreGraphics.framework in Frameworks */,
+				CAA734561827432700715EBC /* UIKit.framework in Frameworks */,
+				CAA734521827432700715EBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA7346C1827432700715EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA734711827432700715EBC /* XCTest.framework in Frameworks */,
+				CAA734731827432700715EBC /* UIKit.framework in Frameworks */,
+				CAA734721827432700715EBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAA734451827432700715EBC = {
+			isa = PBXGroup;
+			children = (
+				CAA734571827432700715EBC /* ch10Magnetomater */,
+				CAA734761827432700715EBC /* ch10MagnetomaterTests */,
+				CAA734501827432700715EBC /* Frameworks */,
+				CAA7344F1827432700715EBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAA7344F1827432700715EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAA7344E1827432700715EBC /* ch10Magnetomater.app */,
+				CAA7346F1827432700715EBC /* ch10MagnetomaterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAA734501827432700715EBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAA734861827433700715EBC /* CoreMotion.framework */,
+				CAA734511827432700715EBC /* Foundation.framework */,
+				CAA734531827432700715EBC /* CoreGraphics.framework */,
+				CAA734551827432700715EBC /* UIKit.framework */,
+				CAA734701827432700715EBC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAA734571827432700715EBC /* ch10Magnetomater */ = {
+			isa = PBXGroup;
+			children = (
+				CAA734601827432700715EBC /* AppDelegate.h */,
+				CAA734611827432700715EBC /* AppDelegate.m */,
+				CAA734631827432700715EBC /* Main.storyboard */,
+				CAA734661827432700715EBC /* ViewController.h */,
+				CAA734671827432700715EBC /* ViewController.m */,
+				CAA734691827432700715EBC /* Images.xcassets */,
+				CAA734581827432700715EBC /* Supporting Files */,
+			);
+			path = ch10Magnetomater;
+			sourceTree = "<group>";
+		};
+		CAA734581827432700715EBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAA734591827432700715EBC /* ch10Magnetomater-Info.plist */,
+				CAA7345A1827432700715EBC /* InfoPlist.strings */,
+				CAA7345D1827432700715EBC /* main.m */,
+				CAA7345F1827432700715EBC /* ch10Magnetomater-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAA734761827432700715EBC /* ch10MagnetomaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAA7347C1827432700715EBC /* ch10MagnetomaterTests.m */,
+				CAA734771827432700715EBC /* Supporting Files */,
+			);
+			path = ch10MagnetomaterTests;
+			sourceTree = "<group>";
+		};
+		CAA734771827432700715EBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAA734781827432700715EBC /* ch10MagnetomaterTests-Info.plist */,
+				CAA734791827432700715EBC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAA7344D1827432700715EBC /* ch10Magnetomater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA734801827432800715EBC /* Build configuration list for PBXNativeTarget "ch10Magnetomater" */;
+			buildPhases = (
+				CAA7344A1827432700715EBC /* Sources */,
+				CAA7344B1827432700715EBC /* Frameworks */,
+				CAA7344C1827432700715EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ch10Magnetomater;
+			productName = ch10Magnetomater;
+			productReference = CAA7344E1827432700715EBC /* ch10Magnetomater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAA7346E1827432700715EBC /* ch10MagnetomaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA734831827432800715EBC /* Build configuration list for PBXNativeTarget "ch10MagnetomaterTests" */;
+			buildPhases = (
+				CAA7346B1827432700715EBC /* Sources */,
+				CAA7346C1827432700715EBC /* Frameworks */,
+				CAA7346D1827432700715EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAA734751827432700715EBC /* PBXTargetDependency */,
+			);
+			name = ch10MagnetomaterTests;
+			productName = ch10MagnetomaterTests;
+			productReference = CAA7346F1827432700715EBC /* ch10MagnetomaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAA734461827432700715EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = shoeisha;
+				TargetAttributes = {
+					CAA7346E1827432700715EBC = {
+						TestTargetID = CAA7344D1827432700715EBC;
+					};
+				};
+			};
+			buildConfigurationList = CAA734491827432700715EBC /* Build configuration list for PBXProject "ch10Magnetomater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAA734451827432700715EBC;
+			productRefGroup = CAA7344F1827432700715EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAA7344D1827432700715EBC /* ch10Magnetomater */,
+				CAA7346E1827432700715EBC /* ch10MagnetomaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAA7344C1827432700715EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA7346A1827432700715EBC /* Images.xcassets in Resources */,
+				CAA7345C1827432700715EBC /* InfoPlist.strings in Resources */,
+				CAA734651827432700715EBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA7346D1827432700715EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA7347B1827432700715EBC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAA7344A1827432700715EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA734681827432700715EBC /* ViewController.m in Sources */,
+				CAA734621827432700715EBC /* AppDelegate.m in Sources */,
+				CAA7345E1827432700715EBC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA7346B1827432700715EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA7347D1827432700715EBC /* ch10MagnetomaterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAA734751827432700715EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAA7344D1827432700715EBC /* ch10Magnetomater */;
+			targetProxy = CAA734741827432700715EBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAA7345A1827432700715EBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAA7345B1827432700715EBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAA734631827432700715EBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAA734641827432700715EBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAA734791827432700715EBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAA7347A1827432700715EBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAA7347E1827432800715EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAA7347F1827432800715EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAA734811827432800715EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch10Magnetomater/ch10Magnetomater-Prefix.pch";
+				INFOPLIST_FILE = "ch10Magnetomater/ch10Magnetomater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAA734821827432800715EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch10Magnetomater/ch10Magnetomater-Prefix.pch";
+				INFOPLIST_FILE = "ch10Magnetomater/ch10Magnetomater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CAA734841827432800715EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ch10Magnetomater.app/ch10Magnetomater";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch10Magnetomater/ch10Magnetomater-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ch10MagnetomaterTests/ch10MagnetomaterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CAA734851827432800715EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ch10Magnetomater.app/ch10Magnetomater";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch10Magnetomater/ch10Magnetomater-Prefix.pch";
+				INFOPLIST_FILE = "ch10MagnetomaterTests/ch10MagnetomaterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAA734491827432700715EBC /* Build configuration list for PBXProject "ch10Magnetomater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA7347E1827432800715EBC /* Debug */,
+				CAA7347F1827432800715EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA734801827432800715EBC /* Build configuration list for PBXNativeTarget "ch10Magnetomater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA734811827432800715EBC /* Debug */,
+				CAA734821827432800715EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAA734831827432800715EBC /* Build configuration list for PBXNativeTarget "ch10MagnetomaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA734841827432800715EBC /* Debug */,
+				CAA734851827432800715EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAA734461827432700715EBC /* Project object */;
+}

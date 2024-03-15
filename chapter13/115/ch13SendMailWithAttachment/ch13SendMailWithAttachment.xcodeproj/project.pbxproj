@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDD6F8C6183ADB120022808F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD6F8C5183ADB120022808F /* Foundation.framework */; };
+		DDD6F8C8183ADB120022808F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD6F8C7183ADB120022808F /* CoreGraphics.framework */; };
+		DDD6F8CA183ADB120022808F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD6F8C9183ADB120022808F /* UIKit.framework */; };
+		DDD6F8D0183ADB120022808F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDD6F8CE183ADB120022808F /* InfoPlist.strings */; };
+		DDD6F8D2183ADB120022808F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6F8D1183ADB120022808F /* main.m */; };
+		DDD6F8D6183ADB120022808F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6F8D5183ADB120022808F /* AppDelegate.m */; };
+		DDD6F8D9183ADB120022808F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD6F8D7183ADB120022808F /* Main.storyboard */; };
+		DDD6F8DC183ADB120022808F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6F8DB183ADB120022808F /* ViewController.m */; };
+		DDD6F8DE183ADB120022808F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD6F8DD183ADB120022808F /* Images.xcassets */; };
+		DDD6F8E5183ADB120022808F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD6F8E4183ADB120022808F /* XCTest.framework */; };
+		DDD6F8E6183ADB120022808F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD6F8C5183ADB120022808F /* Foundation.framework */; };
+		DDD6F8E7183ADB120022808F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD6F8C9183ADB120022808F /* UIKit.framework */; };
+		DDD6F8EF183ADB120022808F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDD6F8ED183ADB120022808F /* InfoPlist.strings */; };
+		DDD6F8F1183ADB120022808F /* ch13SendMailWithAttachmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6F8F0183ADB120022808F /* ch13SendMailWithAttachmentTests.m */; };
+		DDD6F8FB183BA60C0022808F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD6F8FA183BA60C0022808F /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDD6F8E8183ADB120022808F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDD6F8BA183ADB120022808F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD6F8C1183ADB120022808F;
+			remoteInfo = ch13SendMailWithAttachment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDD6F8C2183ADB120022808F /* ch13SendMailWithAttachment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ch13SendMailWithAttachment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD6F8C5183ADB120022808F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDD6F8C7183ADB120022808F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDD6F8C9183ADB120022808F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDD6F8CD183ADB120022808F /* ch13SendMailWithAttachment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ch13SendMailWithAttachment-Info.plist"; sourceTree = "<group>"; };
+		DDD6F8CF183ADB120022808F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDD6F8D1183ADB120022808F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DDD6F8D3183ADB120022808F /* ch13SendMailWithAttachment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ch13SendMailWithAttachment-Prefix.pch"; sourceTree = "<group>"; };
+		DDD6F8D4183ADB120022808F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DDD6F8D5183ADB120022808F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DDD6F8D8183ADB120022808F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDD6F8DA183ADB120022808F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DDD6F8DB183ADB120022808F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DDD6F8DD183ADB120022808F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDD6F8E3183ADB120022808F /* ch13SendMailWithAttachmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ch13SendMailWithAttachmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD6F8E4183ADB120022808F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DDD6F8EC183ADB120022808F /* ch13SendMailWithAttachmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ch13SendMailWithAttachmentTests-Info.plist"; sourceTree = "<group>"; };
+		DDD6F8EE183ADB120022808F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDD6F8F0183ADB120022808F /* ch13SendMailWithAttachmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ch13SendMailWithAttachmentTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DDD6F8FA183BA60C0022808F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDD6F8BF183ADB120022808F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD6F8FB183BA60C0022808F /* MessageUI.framework in Frameworks */,
+				DDD6F8C8183ADB120022808F /* CoreGraphics.framework in Frameworks */,
+				DDD6F8CA183ADB120022808F /* UIKit.framework in Frameworks */,
+				DDD6F8C6183ADB120022808F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD6F8E0183ADB120022808F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD6F8E5183ADB120022808F /* XCTest.framework in Frameworks */,
+				DDD6F8E7183ADB120022808F /* UIKit.framework in Frameworks */,
+				DDD6F8E6183ADB120022808F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDD6F8B9183ADB120022808F = {
+			isa = PBXGroup;
+			children = (
+				DDD6F8CB183ADB120022808F /* ch13SendMailWithAttachment */,
+				DDD6F8EA183ADB120022808F /* ch13SendMailWithAttachmentTests */,
+				DDD6F8C4183ADB120022808F /* Frameworks */,
+				DDD6F8C3183ADB120022808F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDD6F8C3183ADB120022808F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6F8C2183ADB120022808F /* ch13SendMailWithAttachment.app */,
+				DDD6F8E3183ADB120022808F /* ch13SendMailWithAttachmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDD6F8C4183ADB120022808F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6F8FA183BA60C0022808F /* MessageUI.framework */,
+				DDD6F8C5183ADB120022808F /* Foundation.framework */,
+				DDD6F8C7183ADB120022808F /* CoreGraphics.framework */,
+				DDD6F8C9183ADB120022808F /* UIKit.framework */,
+				DDD6F8E4183ADB120022808F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDD6F8CB183ADB120022808F /* ch13SendMailWithAttachment */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6F8D4183ADB120022808F /* AppDelegate.h */,
+				DDD6F8D5183ADB120022808F /* AppDelegate.m */,
+				DDD6F8D7183ADB120022808F /* Main.storyboard */,
+				DDD6F8DA183ADB120022808F /* ViewController.h */,
+				DDD6F8DB183ADB120022808F /* ViewController.m */,
+				DDD6F8DD183ADB120022808F /* Images.xcassets */,
+				DDD6F8CC183ADB120022808F /* Supporting Files */,
+			);
+			path = ch13SendMailWithAttachment;
+			sourceTree = "<group>";
+		};
+		DDD6F8CC183ADB120022808F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6F8CD183ADB120022808F /* ch13SendMailWithAttachment-Info.plist */,
+				DDD6F8CE183ADB120022808F /* InfoPlist.strings */,
+				DDD6F8D1183ADB120022808F /* main.m */,
+				DDD6F8D3183ADB120022808F /* ch13SendMailWithAttachment-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDD6F8EA183ADB120022808F /* ch13SendMailWithAttachmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6F8F0183ADB120022808F /* ch13SendMailWithAttachmentTests.m */,
+				DDD6F8EB183ADB120022808F /* Supporting Files */,
+			);
+			path = ch13SendMailWithAttachmentTests;
+			sourceTree = "<group>";
+		};
+		DDD6F8EB183ADB120022808F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6F8EC183ADB120022808F /* ch13SendMailWithAttachmentTests-Info.plist */,
+				DDD6F8ED183ADB120022808F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDD6F8C1183ADB120022808F /* ch13SendMailWithAttachment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD6F8F4183ADB120022808F /* Build configuration list for PBXNativeTarget "ch13SendMailWithAttachment" */;
+			buildPhases = (
+				DDD6F8BE183ADB120022808F /* Sources */,
+				DDD6F8BF183ADB120022808F /* Frameworks */,
+				DDD6F8C0183ADB120022808F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ch13SendMailWithAttachment;
+			productName = ch13SendMailWithAttachment;
+			productReference = DDD6F8C2183ADB120022808F /* ch13SendMailWithAttachment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDD6F8E2183ADB120022808F /* ch13SendMailWithAttachmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD6F8F7183ADB120022808F /* Build configuration list for PBXNativeTarget "ch13SendMailWithAttachmentTests" */;
+			buildPhases = (
+				DDD6F8DF183ADB120022808F /* Sources */,
+				DDD6F8E0183ADB120022808F /* Frameworks */,
+				DDD6F8E1183ADB120022808F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDD6F8E9183ADB120022808F /* PBXTargetDependency */,
+			);
+			name = ch13SendMailWithAttachmentTests;
+			productName = ch13SendMailWithAttachmentTests;
+			productReference = DDD6F8E3183ADB120022808F /* ch13SendMailWithAttachmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDD6F8BA183ADB120022808F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = shoeisya;
+				TargetAttributes = {
+					DDD6F8E2183ADB120022808F = {
+						TestTargetID = DDD6F8C1183ADB120022808F;
+					};
+				};
+			};
+			buildConfigurationList = DDD6F8BD183ADB120022808F /* Build configuration list for PBXProject "ch13SendMailWithAttachment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDD6F8B9183ADB120022808F;
+			productRefGroup = DDD6F8C3183ADB120022808F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDD6F8C1183ADB120022808F /* ch13SendMailWithAttachment */,
+				DDD6F8E2183ADB120022808F /* ch13SendMailWithAttachmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDD6F8C0183ADB120022808F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD6F8DE183ADB120022808F /* Images.xcassets in Resources */,
+				DDD6F8D0183ADB120022808F /* InfoPlist.strings in Resources */,
+				DDD6F8D9183ADB120022808F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD6F8E1183ADB120022808F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD6F8EF183ADB120022808F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDD6F8BE183ADB120022808F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD6F8DC183ADB120022808F /* ViewController.m in Sources */,
+				DDD6F8D6183ADB120022808F /* AppDelegate.m in Sources */,
+				DDD6F8D2183ADB120022808F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD6F8DF183ADB120022808F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD6F8F1183ADB120022808F /* ch13SendMailWithAttachmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDD6F8E9183ADB120022808F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDD6F8C1183ADB120022808F /* ch13SendMailWithAttachment */;
+			targetProxy = DDD6F8E8183ADB120022808F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDD6F8CE183ADB120022808F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD6F8CF183ADB120022808F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDD6F8D7183ADB120022808F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD6F8D8183ADB120022808F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDD6F8ED183ADB120022808F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD6F8EE183ADB120022808F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDD6F8F2183ADB120022808F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDD6F8F3183ADB120022808F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDD6F8F5183ADB120022808F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13SendMailWithAttachment/ch13SendMailWithAttachment-Prefix.pch";
+				INFOPLIST_FILE = "ch13SendMailWithAttachment/ch13SendMailWithAttachment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDD6F8F6183ADB120022808F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13SendMailWithAttachment/ch13SendMailWithAttachment-Prefix.pch";
+				INFOPLIST_FILE = "ch13SendMailWithAttachment/ch13SendMailWithAttachment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DDD6F8F8183ADB120022808F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ch13SendMailWithAttachment.app/ch13SendMailWithAttachment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13SendMailWithAttachment/ch13SendMailWithAttachment-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ch13SendMailWithAttachmentTests/ch13SendMailWithAttachmentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DDD6F8F9183ADB120022808F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ch13SendMailWithAttachment.app/ch13SendMailWithAttachment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13SendMailWithAttachment/ch13SendMailWithAttachment-Prefix.pch";
+				INFOPLIST_FILE = "ch13SendMailWithAttachmentTests/ch13SendMailWithAttachmentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDD6F8BD183ADB120022808F /* Build configuration list for PBXProject "ch13SendMailWithAttachment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD6F8F2183ADB120022808F /* Debug */,
+				DDD6F8F3183ADB120022808F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD6F8F4183ADB120022808F /* Build configuration list for PBXNativeTarget "ch13SendMailWithAttachment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD6F8F5183ADB120022808F /* Debug */,
+				DDD6F8F6183ADB120022808F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD6F8F7183ADB120022808F /* Build configuration list for PBXNativeTarget "ch13SendMailWithAttachmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD6F8F8183ADB120022808F /* Debug */,
+				DDD6F8F9183ADB120022808F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDD6F8BA183ADB120022808F /* Project object */;
+}

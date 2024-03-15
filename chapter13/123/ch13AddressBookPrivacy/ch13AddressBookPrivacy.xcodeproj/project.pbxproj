@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD91C81718425CCD00C9576F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD91C81618425CCD00C9576F /* Foundation.framework */; };
+		DD91C81918425CCD00C9576F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD91C81818425CCD00C9576F /* CoreGraphics.framework */; };
+		DD91C81B18425CCD00C9576F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD91C81A18425CCD00C9576F /* UIKit.framework */; };
+		DD91C82118425CCD00C9576F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD91C81F18425CCD00C9576F /* InfoPlist.strings */; };
+		DD91C82318425CCD00C9576F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD91C82218425CCD00C9576F /* main.m */; };
+		DD91C82718425CCD00C9576F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD91C82618425CCD00C9576F /* AppDelegate.m */; };
+		DD91C82A18425CCD00C9576F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD91C82818425CCD00C9576F /* Main.storyboard */; };
+		DD91C82D18425CCD00C9576F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD91C82C18425CCD00C9576F /* ViewController.m */; };
+		DD91C82F18425CCD00C9576F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD91C82E18425CCD00C9576F /* Images.xcassets */; };
+		DD91C83618425CCD00C9576F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD91C83518425CCD00C9576F /* XCTest.framework */; };
+		DD91C83718425CCD00C9576F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD91C81618425CCD00C9576F /* Foundation.framework */; };
+		DD91C83818425CCD00C9576F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD91C81A18425CCD00C9576F /* UIKit.framework */; };
+		DD91C84018425CCD00C9576F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD91C83E18425CCD00C9576F /* InfoPlist.strings */; };
+		DD91C84218425CCD00C9576F /* ch13AddressBookPrivacyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD91C84118425CCD00C9576F /* ch13AddressBookPrivacyTests.m */; };
+		DD91C84D18425E8400C9576F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD91C84B18425E8400C9576F /* AddressBook.framework */; };
+		DD91C84E18425E8400C9576F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD91C84C18425E8400C9576F /* AddressBookUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD91C83918425CCD00C9576F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD91C80B18425CCD00C9576F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD91C81218425CCD00C9576F;
+			remoteInfo = ch13AddressBookPrivacy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD91C81318425CCD00C9576F /* ch13AddressBookPrivacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ch13AddressBookPrivacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD91C81618425CCD00C9576F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD91C81818425CCD00C9576F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD91C81A18425CCD00C9576F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD91C81E18425CCD00C9576F /* ch13AddressBookPrivacy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ch13AddressBookPrivacy-Info.plist"; sourceTree = "<group>"; };
+		DD91C82018425CCD00C9576F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD91C82218425CCD00C9576F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD91C82418425CCD00C9576F /* ch13AddressBookPrivacy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ch13AddressBookPrivacy-Prefix.pch"; sourceTree = "<group>"; };
+		DD91C82518425CCD00C9576F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD91C82618425CCD00C9576F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD91C82918425CCD00C9576F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD91C82B18425CCD00C9576F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD91C82C18425CCD00C9576F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD91C82E18425CCD00C9576F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD91C83418425CCD00C9576F /* ch13AddressBookPrivacyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ch13AddressBookPrivacyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD91C83518425CCD00C9576F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DD91C83D18425CCD00C9576F /* ch13AddressBookPrivacyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ch13AddressBookPrivacyTests-Info.plist"; sourceTree = "<group>"; };
+		DD91C83F18425CCD00C9576F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD91C84118425CCD00C9576F /* ch13AddressBookPrivacyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ch13AddressBookPrivacyTests.m; sourceTree = "<group>"; };
+		DD91C84B18425E8400C9576F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		DD91C84C18425E8400C9576F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD91C81018425CCD00C9576F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD91C84D18425E8400C9576F /* AddressBook.framework in Frameworks */,
+				DD91C84E18425E8400C9576F /* AddressBookUI.framework in Frameworks */,
+				DD91C81918425CCD00C9576F /* CoreGraphics.framework in Frameworks */,
+				DD91C81B18425CCD00C9576F /* UIKit.framework in Frameworks */,
+				DD91C81718425CCD00C9576F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD91C83118425CCD00C9576F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD91C83618425CCD00C9576F /* XCTest.framework in Frameworks */,
+				DD91C83818425CCD00C9576F /* UIKit.framework in Frameworks */,
+				DD91C83718425CCD00C9576F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD91C80A18425CCD00C9576F = {
+			isa = PBXGroup;
+			children = (
+				DD91C81C18425CCD00C9576F /* ch13AddressBookPrivacy */,
+				DD91C83B18425CCD00C9576F /* ch13AddressBookPrivacyTests */,
+				DD91C81518425CCD00C9576F /* Frameworks */,
+				DD91C81418425CCD00C9576F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD91C81418425CCD00C9576F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD91C81318425CCD00C9576F /* ch13AddressBookPrivacy.app */,
+				DD91C83418425CCD00C9576F /* ch13AddressBookPrivacyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD91C81518425CCD00C9576F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD91C84B18425E8400C9576F /* AddressBook.framework */,
+				DD91C84C18425E8400C9576F /* AddressBookUI.framework */,
+				DD91C81618425CCD00C9576F /* Foundation.framework */,
+				DD91C81818425CCD00C9576F /* CoreGraphics.framework */,
+				DD91C81A18425CCD00C9576F /* UIKit.framework */,
+				DD91C83518425CCD00C9576F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD91C81C18425CCD00C9576F /* ch13AddressBookPrivacy */ = {
+			isa = PBXGroup;
+			children = (
+				DD91C82518425CCD00C9576F /* AppDelegate.h */,
+				DD91C82618425CCD00C9576F /* AppDelegate.m */,
+				DD91C82818425CCD00C9576F /* Main.storyboard */,
+				DD91C82B18425CCD00C9576F /* ViewController.h */,
+				DD91C82C18425CCD00C9576F /* ViewController.m */,
+				DD91C82E18425CCD00C9576F /* Images.xcassets */,
+				DD91C81D18425CCD00C9576F /* Supporting Files */,
+			);
+			path = ch13AddressBookPrivacy;
+			sourceTree = "<group>";
+		};
+		DD91C81D18425CCD00C9576F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD91C81E18425CCD00C9576F /* ch13AddressBookPrivacy-Info.plist */,
+				DD91C81F18425CCD00C9576F /* InfoPlist.strings */,
+				DD91C82218425CCD00C9576F /* main.m */,
+				DD91C82418425CCD00C9576F /* ch13AddressBookPrivacy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD91C83B18425CCD00C9576F /* ch13AddressBookPrivacyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD91C84118425CCD00C9576F /* ch13AddressBookPrivacyTests.m */,
+				DD91C83C18425CCD00C9576F /* Supporting Files */,
+			);
+			path = ch13AddressBookPrivacyTests;
+			sourceTree = "<group>";
+		};
+		DD91C83C18425CCD00C9576F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD91C83D18425CCD00C9576F /* ch13AddressBookPrivacyTests-Info.plist */,
+				DD91C83E18425CCD00C9576F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD91C81218425CCD00C9576F /* ch13AddressBookPrivacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD91C84518425CCD00C9576F /* Build configuration list for PBXNativeTarget "ch13AddressBookPrivacy" */;
+			buildPhases = (
+				DD91C80F18425CCD00C9576F /* Sources */,
+				DD91C81018425CCD00C9576F /* Frameworks */,
+				DD91C81118425CCD00C9576F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ch13AddressBookPrivacy;
+			productName = ch13AddressBookPrivacy;
+			productReference = DD91C81318425CCD00C9576F /* ch13AddressBookPrivacy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD91C83318425CCD00C9576F /* ch13AddressBookPrivacyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD91C84818425CCD00C9576F /* Build configuration list for PBXNativeTarget "ch13AddressBookPrivacyTests" */;
+			buildPhases = (
+				DD91C83018425CCD00C9576F /* Sources */,
+				DD91C83118425CCD00C9576F /* Frameworks */,
+				DD91C83218425CCD00C9576F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD91C83A18425CCD00C9576F /* PBXTargetDependency */,
+			);
+			name = ch13AddressBookPrivacyTests;
+			productName = ch13AddressBookPrivacyTests;
+			productReference = DD91C83418425CCD00C9576F /* ch13AddressBookPrivacyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD91C80B18425CCD00C9576F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = shoeisya;
+				TargetAttributes = {
+					DD91C83318425CCD00C9576F = {
+						TestTargetID = DD91C81218425CCD00C9576F;
+					};
+				};
+			};
+			buildConfigurationList = DD91C80E18425CCD00C9576F /* Build configuration list for PBXProject "ch13AddressBookPrivacy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD91C80A18425CCD00C9576F;
+			productRefGroup = DD91C81418425CCD00C9576F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD91C81218425CCD00C9576F /* ch13AddressBookPrivacy */,
+				DD91C83318425CCD00C9576F /* ch13AddressBookPrivacyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD91C81118425CCD00C9576F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD91C82F18425CCD00C9576F /* Images.xcassets in Resources */,
+				DD91C82118425CCD00C9576F /* InfoPlist.strings in Resources */,
+				DD91C82A18425CCD00C9576F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD91C83218425CCD00C9576F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD91C84018425CCD00C9576F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD91C80F18425CCD00C9576F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD91C82D18425CCD00C9576F /* ViewController.m in Sources */,
+				DD91C82718425CCD00C9576F /* AppDelegate.m in Sources */,
+				DD91C82318425CCD00C9576F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD91C83018425CCD00C9576F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD91C84218425CCD00C9576F /* ch13AddressBookPrivacyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD91C83A18425CCD00C9576F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD91C81218425CCD00C9576F /* ch13AddressBookPrivacy */;
+			targetProxy = DD91C83918425CCD00C9576F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD91C81F18425CCD00C9576F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD91C82018425CCD00C9576F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD91C82818425CCD00C9576F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD91C82918425CCD00C9576F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD91C83E18425CCD00C9576F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD91C83F18425CCD00C9576F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD91C84318425CCD00C9576F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD91C84418425CCD00C9576F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD91C84618425CCD00C9576F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13AddressBookPrivacy/ch13AddressBookPrivacy-Prefix.pch";
+				INFOPLIST_FILE = "ch13AddressBookPrivacy/ch13AddressBookPrivacy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD91C84718425CCD00C9576F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13AddressBookPrivacy/ch13AddressBookPrivacy-Prefix.pch";
+				INFOPLIST_FILE = "ch13AddressBookPrivacy/ch13AddressBookPrivacy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DD91C84918425CCD00C9576F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ch13AddressBookPrivacy.app/ch13AddressBookPrivacy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13AddressBookPrivacy/ch13AddressBookPrivacy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ch13AddressBookPrivacyTests/ch13AddressBookPrivacyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DD91C84A18425CCD00C9576F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ch13AddressBookPrivacy.app/ch13AddressBookPrivacy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch13AddressBookPrivacy/ch13AddressBookPrivacy-Prefix.pch";
+				INFOPLIST_FILE = "ch13AddressBookPrivacyTests/ch13AddressBookPrivacyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD91C80E18425CCD00C9576F /* Build configuration list for PBXProject "ch13AddressBookPrivacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD91C84318425CCD00C9576F /* Debug */,
+				DD91C84418425CCD00C9576F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD91C84518425CCD00C9576F /* Build configuration list for PBXNativeTarget "ch13AddressBookPrivacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD91C84618425CCD00C9576F /* Debug */,
+				DD91C84718425CCD00C9576F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD91C84818425CCD00C9576F /* Build configuration list for PBXNativeTarget "ch13AddressBookPrivacyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD91C84918425CCD00C9576F /* Debug */,
+				DD91C84A18425CCD00C9576F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD91C80B18425CCD00C9576F /* Project object */;
+}
