@@ -208,11 +208,12 @@
 					};
 				};
 			};
-			buildConfigurationList = E1457AD318949D7500E08ACD /* Build configuration list for PBXProject "ch9UseMapKitPin" */;
+			buildConfigurationList = E1457AD318949D7500E08ACD /* Build configuration list for PBXProject "ch9usemapkitpin" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -385,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch9UseMapKitPin/ch9UseMapKitPin-Prefix.pch";
 				INFOPLIST_FILE = "ch9UseMapKitPin/ch9UseMapKitPin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch9UseMapKitPin/ch9UseMapKitPin-Prefix.pch";
 				INFOPLIST_FILE = "ch9UseMapKitPin/ch9UseMapKitPin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -448,7 +451,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1457AD318949D7500E08ACD /* Build configuration list for PBXProject "ch9UseMapKitPin" */ = {
+		E1457AD318949D7500E08ACD /* Build configuration list for PBXProject "ch9usemapkitpin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1457B0818949D7500E08ACD /* Debug */,
@@ -464,6 +467,7 @@
 				E1457B0C18949D7500E08ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1457B0D18949D7500E08ACD /* Build configuration list for PBXNativeTarget "ch9UseMapKitPinTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +476,7 @@
 				E1457B0F18949D7500E08ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

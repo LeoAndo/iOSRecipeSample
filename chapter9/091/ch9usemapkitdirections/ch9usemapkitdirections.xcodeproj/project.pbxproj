@@ -208,11 +208,12 @@
 					};
 				};
 			};
-			buildConfigurationList = E1457B5918950A2400E08ACD /* Build configuration list for PBXProject "ch9UseMapKitDirections" */;
+			buildConfigurationList = E1457B5918950A2400E08ACD /* Build configuration list for PBXProject "ch9usemapkitdirections" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -385,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch9UseMapKitDirections/ch9UseMapKitDirections-Prefix.pch";
 				INFOPLIST_FILE = "ch9UseMapKitDirections/ch9UseMapKitDirections-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch9UseMapKitDirections/ch9UseMapKitDirections-Prefix.pch";
 				INFOPLIST_FILE = "ch9UseMapKitDirections/ch9UseMapKitDirections-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -448,7 +451,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1457B5918950A2400E08ACD /* Build configuration list for PBXProject "ch9UseMapKitDirections" */ = {
+		E1457B5918950A2400E08ACD /* Build configuration list for PBXProject "ch9usemapkitdirections" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1457B8E18950A2400E08ACD /* Debug */,
@@ -464,6 +467,7 @@
 				E1457B9218950A2400E08ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1457B9318950A2400E08ACD /* Build configuration list for PBXNativeTarget "ch9UseMapKitDirectionsTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +476,7 @@
 				E1457B9518950A2400E08ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

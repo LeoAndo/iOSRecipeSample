@@ -267,6 +267,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -456,6 +457,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoogleMapRecipe/GoogleMapRecipe-Prefix.pch";
 				INFOPLIST_FILE = "GoogleMapRecipe/GoogleMapRecipe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					GoogleMapRecipe/GoogleMaps/GoogleMaps.framework,
@@ -481,6 +483,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoogleMapRecipe/GoogleMapRecipe-Prefix.pch";
 				INFOPLIST_FILE = "GoogleMapRecipe/GoogleMapRecipe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					GoogleMapRecipe/GoogleMaps/GoogleMaps.framework,
