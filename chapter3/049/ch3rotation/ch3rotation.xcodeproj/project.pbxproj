@@ -209,6 +209,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -381,6 +382,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch3rotation/ch3rotation-Prefix.pch";
 				INFOPLIST_FILE = "ch3rotation/ch3rotation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch3rotation/ch3rotation-Prefix.pch";
 				INFOPLIST_FILE = "ch3rotation/ch3rotation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +463,7 @@
 				3EC257DD184097B00076295C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EC257DE184097B00076295C /* Build configuration list for PBXNativeTarget "ch3rotationTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +472,7 @@
 				3EC257E0184097B00076295C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
