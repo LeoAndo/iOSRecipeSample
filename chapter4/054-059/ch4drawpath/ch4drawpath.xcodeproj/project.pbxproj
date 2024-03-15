@@ -209,11 +209,12 @@
 					};
 				};
 			};
-			buildConfigurationList = A4C136CE18273B58003CB75B /* Build configuration list for PBXProject "ch4DrawPath" */;
+			buildConfigurationList = A4C136CE18273B58003CB75B /* Build configuration list for PBXProject "ch4drawpath" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -387,6 +388,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch4DrawPath/ch4DrawPath-Prefix.pch";
 				INFOPLIST_FILE = "ch4DrawPath/ch4DrawPath-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,6 +402,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch4DrawPath/ch4DrawPath-Prefix.pch";
 				INFOPLIST_FILE = "ch4DrawPath/ch4DrawPath-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -450,7 +453,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4C136CE18273B58003CB75B /* Build configuration list for PBXProject "ch4DrawPath" */ = {
+		A4C136CE18273B58003CB75B /* Build configuration list for PBXProject "ch4drawpath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4C1370318273B58003CB75B /* Debug */,

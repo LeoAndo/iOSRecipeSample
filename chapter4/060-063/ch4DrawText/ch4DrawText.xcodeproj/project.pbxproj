@@ -218,6 +218,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -391,6 +392,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch4DrawText/ch4DrawText-Prefix.pch";
 				INFOPLIST_FILE = "ch4DrawText/ch4DrawText-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -404,6 +406,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch4DrawText/ch4DrawText-Prefix.pch";
 				INFOPLIST_FILE = "ch4DrawText/ch4DrawText-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +473,7 @@
 				E14E730E182BBE580044A0AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E14E730F182BBE580044A0AC /* Build configuration list for PBXNativeTarget "ch4DrawTextTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +482,7 @@
 				E14E7311182BBE580044A0AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
