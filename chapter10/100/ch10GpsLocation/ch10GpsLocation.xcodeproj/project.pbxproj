@@ -209,6 +209,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -381,6 +382,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch10GpsLocation/ch10GpsLocation-Prefix.pch";
 				INFOPLIST_FILE = "ch10GpsLocation/ch10GpsLocation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch10GpsLocation/ch10GpsLocation-Prefix.pch";
 				INFOPLIST_FILE = "ch10GpsLocation/ch10GpsLocation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +463,7 @@
 				CA9C1F8A18279F0600EA661D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA9C1F8B18279F0600EA661D /* Build configuration list for PBXNativeTarget "ch10GpsLocationTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +472,7 @@
 				CA9C1F8D18279F0600EA661D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

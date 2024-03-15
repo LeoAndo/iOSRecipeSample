@@ -214,6 +214,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -387,6 +388,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch10NetworkReachability/ch10NetworkReachability-Prefix.pch";
 				INFOPLIST_FILE = "ch10NetworkReachability/ch10NetworkReachability-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,6 +402,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch10NetworkReachability/ch10NetworkReachability-Prefix.pch";
 				INFOPLIST_FILE = "ch10NetworkReachability/ch10NetworkReachability-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -466,6 +469,7 @@
 				CA43AF7A1854AD6F006F27A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA43AF7B1854AD6F006F27A7 /* Build configuration list for PBXNativeTarget "ch10NetworkReachabilityTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +478,7 @@
 				CA43AF7D1854AD6F006F27A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

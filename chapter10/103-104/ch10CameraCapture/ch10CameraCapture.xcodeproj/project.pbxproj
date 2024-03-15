@@ -228,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -401,6 +402,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch10CameraCapture/ch10CameraCapture-Prefix.pch";
 				INFOPLIST_FILE = "ch10CameraCapture/ch10CameraCapture-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -414,6 +416,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch10CameraCapture/ch10CameraCapture-Prefix.pch";
 				INFOPLIST_FILE = "ch10CameraCapture/ch10CameraCapture-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -480,6 +483,7 @@
 				CA01F6C11853FD060023DB56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA01F6C21853FD060023DB56 /* Build configuration list for PBXNativeTarget "ch10CameraCaptureTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +492,7 @@
 				CA01F6C41853FD060023DB56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
