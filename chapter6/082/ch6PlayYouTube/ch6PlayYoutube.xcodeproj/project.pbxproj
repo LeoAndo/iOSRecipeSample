@@ -209,6 +209,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -381,6 +382,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch6PlayYoutube/ch6PlayYoutube-Prefix.pch";
 				INFOPLIST_FILE = "ch6PlayYoutube/ch6PlayYoutube-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch6PlayYoutube/ch6PlayYoutube-Prefix.pch";
 				INFOPLIST_FILE = "ch6PlayYoutube/ch6PlayYoutube-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +463,7 @@
 				CA267C8118200AE000EA0227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA267C8218200AE000EA0227 /* Build configuration list for PBXNativeTarget "ch6PlayYoutubeTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +472,7 @@
 				CA267C8418200AE000EA0227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

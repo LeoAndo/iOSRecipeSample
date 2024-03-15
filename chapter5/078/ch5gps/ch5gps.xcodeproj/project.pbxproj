@@ -135,6 +135,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -275,6 +276,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch5gps/ch5gps-Prefix.pch";
 				INFOPLIST_FILE = "ch5gps/ch5gps-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = ch5gps;
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +291,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch5gps/ch5gps-Prefix.pch";
 				INFOPLIST_FILE = "ch5gps/ch5gps-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = ch5gps;
 				WRAPPER_EXTENSION = app;
 			};
