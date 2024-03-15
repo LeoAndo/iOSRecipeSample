@@ -209,11 +209,12 @@
 					};
 				};
 			};
-			buildConfigurationList = E1A21511184B829100094C20 /* Build configuration list for PBXProject "ch2UseStoryboardWithValue" */;
+			buildConfigurationList = E1A21511184B829100094C20 /* Build configuration list for PBXProject "ch2usestoryboardwithvalue" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -387,6 +388,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch2UseStoryboardWithValue/ch2UseStoryboardWithValue-Prefix.pch";
 				INFOPLIST_FILE = "ch2UseStoryboardWithValue/ch2UseStoryboardWithValue-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,6 +402,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch2UseStoryboardWithValue/ch2UseStoryboardWithValue-Prefix.pch";
 				INFOPLIST_FILE = "ch2UseStoryboardWithValue/ch2UseStoryboardWithValue-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -450,7 +453,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1A21511184B829100094C20 /* Build configuration list for PBXProject "ch2UseStoryboardWithValue" */ = {
+		E1A21511184B829100094C20 /* Build configuration list for PBXProject "ch2usestoryboardwithvalue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1A21546184B829100094C20 /* Debug */,
@@ -466,6 +469,7 @@
 				E1A2154A184B829100094C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1A2154B184B829100094C20 /* Build configuration list for PBXNativeTarget "ch2UseStoryboardWithValueTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +478,7 @@
 				E1A2154D184B829100094C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

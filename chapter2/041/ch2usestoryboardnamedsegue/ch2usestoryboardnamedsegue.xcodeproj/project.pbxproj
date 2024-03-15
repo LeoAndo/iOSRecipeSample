@@ -214,11 +214,12 @@
 					};
 				};
 			};
-			buildConfigurationList = E1A214CA184AE88A00094C20 /* Build configuration list for PBXProject "ch2UseStoryboardNamedSegue" */;
+			buildConfigurationList = E1A214CA184AE88A00094C20 /* Build configuration list for PBXProject "ch2usestoryboardnamedsegue" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -393,6 +394,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch2UseStoryboardNamedSegue/ch2UseStoryboardNamedSegue-Prefix.pch";
 				INFOPLIST_FILE = "ch2UseStoryboardNamedSegue/ch2UseStoryboardNamedSegue-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ch2UseStoryboardNamedSegue/ch2UseStoryboardNamedSegue-Prefix.pch";
 				INFOPLIST_FILE = "ch2UseStoryboardNamedSegue/ch2UseStoryboardNamedSegue-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,7 +459,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1A214CA184AE88A00094C20 /* Build configuration list for PBXProject "ch2UseStoryboardNamedSegue" */ = {
+		E1A214CA184AE88A00094C20 /* Build configuration list for PBXProject "ch2usestoryboardnamedsegue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1A214FF184AE88A00094C20 /* Debug */,
